@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    server_name quorumapps.com;
+
+    root /srv/http;
+
+    location / {
+      	root /srv/http/corporate/public;
+	try_files $uri $uri/index.html $uri.html =404;
+    }
+}

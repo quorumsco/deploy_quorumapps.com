@@ -1,0 +1,47 @@
+[Unit]
+Description=Authentification proxy
+
+# Requirements
+Requires=etcd.service
+Requires=docker.service
+Requires=contacts.service
+Requires=oauth2.service
+Requires=redis.service
+
+# Dependency ordering
+After=etcd.service
+After=docker.service
+After=contacts.service
+After=oauth2.service
+After=redis.service
+
+[Service]
+# Let the process take awhile to start up (for first run Docker containers)
+TimeoutStartSec=0
+
+# Change killmode from "control-group" to "none" to let Docker remove
+# work correctly.
+KillMode=none
+
+Environment=IMAGE=quorum/gateway CONTAINER=gateway
+
+# Get CoreOS environmental variables
+EnvironmentFile=/etc/environment
+
+# Pre-start and Start
+ExecStartPre=-/usr/bin/docker kill ${CONTAINER}
+ExecStartPre=-/usr/bin/docker rm ${CONTAINER}
+ExecStartPre=/usr/bin/docker pull ${IMAGE}
+ExecStart=/usr/bin/docker run --name ${CONTAINER} \
+	-p 8080:8080 \
+	-e CONFIG=config.json \
+	--link contacts:contacts \
+	--link oauth2:oauth2 \
+	--link redis:redis \
+	-v ${DEPLOY_SRC}/configs/${CONTAINER}/production.json:/go/src/github.com/quorumsco/${CONTAINER}/config.json:ro ${IMAGE}
+
+# Stop
+ExecStop=/usr/bin/docker stop ${CONTAINER}
+
+[X-Fleet]
+Conflicts=${CONTAINER}.service

@@ -1,0 +1,3 @@
+upstream ghost {
+  server ghost:2368;
+}

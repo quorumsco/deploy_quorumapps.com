@@ -1,0 +1,46 @@
+[Unit]
+Description=Nginx load balancer for web server backends
+
+# Requirements
+Requires=etcd.service
+Requires=docker.service
+Requires=ghost.service
+Requires=quorumapps.com.service
+
+# Dependency ordering
+After=etcd.service
+After=docker.service
+After=ghost.service
+After=quorumapps.com.service
+
+[Service]
+# Let the process take awhile to start up (for first run Docker containers)
+TimeoutStartSec=0
+
+# Change killmode from "control-group" to "none" to let Docker remove
+# work correctly.
+KillMode=none
+
+Environment=IMAGE=nginx CONTAINER=nginx
+
+# Get CoreOS environmental variables
+EnvironmentFile=/etc/environment
+
+# Pre-start and Start
+ExecStartPre=-/usr/bin/docker kill ${CONTAINER}
+ExecStartPre=-/usr/bin/docker rm ${CONTAINER}
+ExecStartPre=/usr/bin/docker pull ${IMAGE}
+ExecStart=/usr/bin/docker run --name ${CONTAINER} -p 80:80 \
+	-v ${DEPLOY_SRC}/configs/${CONTAINER}/nginx.conf:/etc/nginx/nginx.conf:ro \
+	-v ${DEPLOY_SRC}/configs/${CONTAINER}/sites-enabled:/etc/nginx/sites-enabled:ro \
+	--volumes-from quorumapps.com \
+	--link ghost:ghost ${IMAGE}
+
+# Reload
+ExecReload=/usr/bin/docker kill -s HUP ${CONTAINER}
+
+# Stop
+ExecStop=/usr/bin/docker stop ${CONTAINER}
+
+[X-Fleet]
+Conflicts=${CONTAINER}.service

@@ -1,0 +1,37 @@
+[Unit]
+Description=Ghost blogging platform
+
+# Requirements
+Requires=etcd.service
+Requires=docker.service
+
+# Dependency ordering
+After=etcd.service
+After=docker.service
+
+[Service]
+# Let the process take awhile to start up (for first run Docker containers)
+TimeoutStartSec=0
+
+# Change killmode from "control-group" to "none" to let Docker remove
+# work correctly.
+KillMode=none
+
+Environment=IMAGE=ghost CONTAINER=ghost
+
+# Get CoreOS environmental variables
+EnvironmentFile=/etc/environment
+
+# Pre-start and Start
+ExecStartPre=-/usr/bin/docker kill ${CONTAINER}
+ExecStartPre=-/usr/bin/docker rm ${CONTAINER}
+ExecStartPre=/usr/bin/docker pull ${IMAGE}
+ExecStart=/usr/bin/docker run --name ${CONTAINER} \
+	-v ${DEPLOY_SRC}/configs/${CONTAINER}:/var/lib/ghost \
+	-e NODE_ENV=production ${IMAGE}
+
+# Stop
+ExecStop=/usr/bin/docker stop ${CONTAINER}
+
+[X-Fleet]
+Conflicts=${CONTAINER}.service
