@@ -1,0 +1,4 @@
+2016-09-28 08:23:24,853 [http-nio-8080-exec-9] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-28 08:23:39,181 [http-nio-8080-exec-7] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-17 support Out Of Order Broadcast: false
+2016-09-28 11:11:54,986 [http-nio-8080-exec-3] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-28 11:11:54,995 [http-nio-8080-exec-3] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-17 support Out Of Order Broadcast: false

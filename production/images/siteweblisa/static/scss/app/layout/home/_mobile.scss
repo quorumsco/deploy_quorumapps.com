@@ -1,0 +1,162 @@
+@include exports('mobile') {
+	#mobile{
+		margin-top: 60px;
+		background: url('../images/home/mobile4.png');
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+		background-position: 15%;
+		opacity: 0;
+		h3 {
+			p {
+				margin: 0 0 11px 0;
+				color: $font-color;
+			}
+		}
+		i {
+				color: $pink;
+		}
+		.list {
+			div.sentence { 
+				color: $grey;
+				width: 90%;
+				padding: 10px 0;
+				display: inline-block;
+				line-height: 20px;
+				strong {
+					padding: 1px 3px;
+					background: $pink;
+					color: white;
+				}
+			}
+			div.icon {
+				width: 16px;
+				float: left;
+				padding: 10px;
+			}
+		}
+		.container{
+			margin-left: calc(8% + 27px);
+			float:right;
+			width: 43%;
+			text-align: left;
+			margin-right: 8%; 
+		}
+		.sentence {
+			display: inline-block;
+		}
+	}
+	@media(max-width: 351px) {
+		#mobile {
+			.sentence {
+				width: 80%;
+				padding-left: 10px;
+				.part {
+					padding-left: 0px; 
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	@media(max-width: 1024px){
+		#mobile {
+			margin-top: 20px;
+			background: none;
+			div.container {
+				width: 90%;
+				margin: 0 8%;
+				float: none;
+			}
+			.list {
+				div.sentence {
+					width: 90%;
+				}
+			}
+			p {
+				&:first-child{
+					display: inline-block;
+				}
+			}
+			h3 {
+				margin-bottom: 0px;
+			}
+
+		}
+	}
+	@media(min-width: 1110px) and (max-width: 1400px){
+		#mobile {
+			.list {
+				div.sentence { 
+					width: 90%;
+				}
+			}
+		}
+	}
+	@media(max-width: 1250px){
+		#mobile {
+			background-position: 4%;
+		}
+	}
+	@media(min-width: 1025px) and (max-width: 1109px){
+		#mobile {
+			.list {
+				div.sentence { 
+					width: 84%;
+				}
+			}
+		}
+	}
+	@media(min-width: 768px) and (max-width: 1024px) {
+		#mobile {
+			.container {
+				max-width: 1000px;
+			}
+		}
+	}
+	@media(max-width: 767px) {
+		#mobile {
+			opacity: 1;
+			.container {
+				max-width: 760px;
+			}
+			.list {
+				div.sentence {
+					width: 86%;
+				}
+			}
+		}
+	}
+	@media(max-width: $medium-screen) {
+		#mobile {	
+			.container {
+				margin: 0 auto;
+			}
+		}
+	}
+	@media(max-width: $small-screen) {
+		#mobile {	
+			div.container {
+				margin: 0 auto;
+				width: calc(100% - 20px);
+			}
+		}
+	}
+	@media(min-width: 1600px) and (max-width: 2300px) {
+		#mobile {	
+			background-position: 20%;
+			.container {
+				margin-left: auto;
+				width: 41%;
+				margin-right: 3%;
+			}
+		}
+	}
+	@media(min-width: 2301px) {
+		#mobile {	
+			background-position: 25%;
+			.container {
+				margin-left: 20%;
+				width: auto;
+			}
+		}
+	}
+}

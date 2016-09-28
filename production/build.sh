@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -eq 0 ]; then
-  repos=("node-ruby" "frontdev" "quorumapps.com")
+  repos=("node-ruby" "frontdev" "quorumapps.com" "siteweblisa")
 else
   repos=$*
 fi

@@ -1,0 +1,94 @@
+@include exports('footer') {
+	#footer {
+  		background: #312F38;
+  		padding: 25px;
+  		color: $grey;
+  		.container {
+  			padding: 0 8%;
+  		}
+  		.copyright {
+  			margin-bottom: 20px;
+  			display: inline-block;
+  		}
+  		ul{
+			display: inline-block;
+			li{
+				display: inline-block;
+				a {
+					color: $grey;
+					text-decoration: none;
+					&:hover {
+						color: $light-grey;
+					}
+				}
+			}
+			&.social-links{
+				margin-left: 20px;
+				margin-bottom: 10px;
+				li{
+					margin: 0 10px;
+          i {
+            font-size: 20px;
+          }
+				}
+			}
+			&.nav-footer{
+				float: right;
+				li {
+					margin: 0 10px; 
+				}
+			}
+  		}
+  	}
+  	@media(max-width: $small-screen){
+  		#footer{
+  			text-align: center;
+  			.copyright {
+  				width: 100%;
+  			}
+            .container {
+                padding: 0 0;
+            }
+  			ul.nav-footer, ul.social-links {
+  				float: none;
+  				padding-left: 0px;
+  				margin-left: 0px;
+  			}
+  			ul.nav-footer {
+  				li {
+  					margin: 0 12px;
+  				}
+  			}
+  		}
+  	}
+    @media(min-width: $small-screen) and (max-width: 767px) {
+        #footer{
+            text-align: center;
+            ul.nav-footer, ul.social-links {
+                float: none;
+                padding-left: 0px;
+            }
+        } 
+    }
+    @media(min-width: $medium-screen) and (max-width: 818px) {
+        #footer{
+            ul.social-links, ul.social-links  {
+                float: none;
+                margin-left: 0px;
+                padding-left: 20px
+            }
+        } 
+    }
+    @media(min-width: 768px) and (max-width: 854px) {
+        #footer{
+            text-align: center;
+            ul.social-links {
+
+            }
+            ul.nav-footer {
+                float: none;
+                padding: 0 20px;
+            }
+        }   
+    }
+}

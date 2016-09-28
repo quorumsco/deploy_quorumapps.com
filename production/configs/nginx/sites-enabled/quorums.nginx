@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name quorumapps.com;
+    server_name quorumapp.co www.quorumapp.co quorum-impact.com www.quorum-impact.com;
 
     root /srv/http;
 

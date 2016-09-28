@@ -1,0 +1,178 @@
+@charset 'UTF-8';
+
+@import 'compass';
+@import 'modular-scale';
+@import 'bourbon';
+@import 'susy';
+@import 'app/base/base';
+@import 'app/helpers/mixins';
+
+@import 'app/layout/base';
+
+@font-face {
+    font-family: 'ProximaNova-Bold';
+    src:url('../fonts/ProximaNova-Bold.otf');
+}
+@font-face {
+    font-family: 'ProximaNova-Light';
+    src:url('../fonts/ProximaNova-Light.otf');
+}
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src:url('../fonts/ProximaNova-Regular.otf');
+}
+@font-face {
+    font-family: 'quorum';
+    src:url('../fonts/quorum.eot?n9t7a7');
+    src:url('../fonts/quorum.eot?#iefixn9t7a7') format('embedded-opentype'),
+    url('../fonts/quorum.woff?n9t7a7') format('woff'),
+    url('../fonts/quorum.ttf?n9t7a7') format('truetype'),
+    url('../fonts/quorum.svg?n9t7a7#quorum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i[class^='icon-'],
+i[class*=' icon-'] {
+    font-family: 'quorum';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 20px;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-data:before {
+    content: "\e600";
+}
+.icon-dots:before {
+    content: "\e601";
+}
+.icon-facebook:before {
+    content: "\e602";
+}
+.icon-google:before {
+    content: "\e603";
+}
+.icon-human:before {
+    content: "\e604";
+}
+.icon-human66:before {
+    content: "\e605";
+}
+.icon-increasing:before {
+    content: "\e606";
+}
+.icon-linkedin:before {
+    content: "\e607";
+}
+.icon-loading:before {
+    content: "\e608";
+}
+.icon-meeting:before {
+    content: "\e609";
+}
+.icon-megaphone:before {
+    content: "\e60a";
+}
+.icon-round:before {
+    content: "\e60b";
+}
+.icon-society:before {
+    content: "\e60c";
+}
+.icon-touch-pad:before {
+    content: "\e60d";
+}
+.icon-town:before {
+    content: "\e60e";
+}
+.icon-twitter:before {
+    content: "\e60f";
+}
+.icon-vote:before {
+    content: "\e610";
+}
+
+body {
+	width: 100%;
+	background: $light-grey;
+	color: $font-color;
+    position: relative;
+}
+
+main {
+    min-height: 88%;
+}
+
+button.blue, button.red, button.purple {
+    font-weight: bold;
+}
+.blue {
+    background-color: $blue;
+}
+.purple {
+    background-color: $purple;
+}
+.pink {
+    background-color: $pink;
+}
+.red {
+    background-color: $red;
+}
+.green {
+    background-color: $green;
+}
+.dark-blue {
+    background-color: $dark-blue;
+}
+.clearfix {
+    clear: both;
+}
+.italic {
+    font-style: italic;
+}
+
+.animated {
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10%, 0);
+        transform: translate3d(0, 10%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10%, 0);
+        transform: translate3d(0, 10%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.c3 svg{font:10px sans-serif}.c3 line,.c3 path{fill:none;stroke:#000}.c3 text{-webkit-user-select:none;-moz-user-select:none;user-select:none}.c3-bars path,.c3-event-rect,.c3-legend-item-tile,.c3-xgrid-focus,.c3-ygrid{shape-rendering:crispEdges}.c3-chart-arc path{stroke:#fff}.c3-chart-arc text{fill:#fff;font-size:13px}.c3-grid line{stroke:#aaa}.c3-grid text{fill:#aaa}.c3-xgrid,.c3-ygrid{stroke-dasharray:3 3}.c3-text.c3-empty{fill:gray;font-size:2em}.c3-line{stroke-width:1px}.c3-circle._expanded_{stroke-width:1px;stroke:#fff}.c3-selected-circle{fill:#fff;stroke-width:2px}.c3-bar{stroke-width:0}.c3-bar._expanded_{fill-opacity:.75}.c3-target.c3-focused{opacity:1}.c3-target.c3-focused path.c3-line,.c3-target.c3-focused path.c3-step{stroke-width:2px}.c3-target.c3-defocused{opacity:.3!important}.c3-region{fill:#4682b4;fill-opacity:.1}.c3-brush .extent{fill-opacity:.1}.c3-legend-item{font-size:12px}.c3-legend-item-hidden{opacity:.15}.c3-legend-background{opacity:.75;fill:#fff;stroke:#d3d3d3;stroke-width:1}.c3-tooltip-container{z-index:10}.c3-tooltip{border-collapse:collapse;border-spacing:0;background-color:#fff;empty-cells:show;-webkit-box-shadow:7px 7px 12px -9px #777;-moz-box-shadow:7px 7px 12px -9px #777;box-shadow:7px 7px 12px -9px #777;opacity:.9}.c3-tooltip tr{border:1px solid #CCC}.c3-tooltip th{background-color:#aaa;font-size:14px;padding:2px 5px;text-align:left;color:#FFF}.c3-tooltip td{font-size:13px;padding:3px 6px;background-color:#fff;border-left:1px dotted #999}.c3-tooltip td>span{display:inline-block;width:10px;height:10px;margin-right:6px}.c3-tooltip td.value{text-align:right}.c3-area{stroke-width:0;opacity:.2}.c3-chart-arcs-title{dominant-baseline:middle;font-size:1.3em}.c3-chart-arcs .c3-chart-arcs-background{fill:#e0e0e0;stroke:none}.c3-chart-arcs .c3-chart-arcs-gauge-unit{fill:#000;font-size:16px}.c3-chart-arcs .c3-chart-arcs-gauge-max,.c3-chart-arcs .c3-chart-arcs-gauge-min{fill:#777}.c3-chart-arc .c3-gauge-value{fill:#000}

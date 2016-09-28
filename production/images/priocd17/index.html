@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quorum</title>
+         <link rel="stylesheet" href="./css/leaflet.css" />
+         <link rel="icon" type="image/png" href="https://www.quorum-impact.com/images/icons/favicon-96x96.png" sizes="96x96">
+         <link rel="icon" type="image/png" href="https://www.quorum-impact.com/images/icons/favicon-32x32.png" sizes="32x32">
+         <link rel="icon" type="image/png" href="https://www.quorum-impact.com/images/icons/favicon-16x16.png" sizes="16x16">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+		<link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' />
+        <script src="./js/leaflet.ajax.min.js"></script>
+        <link rel="stylesheet" href="./css/MarkerCluster.css" />
+        <link rel="stylesheet" href="./css/MarkerCluster.Default.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/font-awesome.min.css" />
+        
+        <script src='./js/leaflet.markercluster.js'></script>
+         <style>
+           body { margin:0; padding:0; }
+ 			#v-map { top:0; bottom:0; left:0; right: 0; width:100%; position:relative; }
+         	
+
+            #title-map {
+                text-align: center;
+                display:block;
+                margin-top: -20px;
+                margin-bottom: 30px;
+                color:#000;
+                border : 1px solid #000;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .leaflet-popup-close-button {
+                display:none;
+            }
+
+            .leaflet-label-overlay {
+                line-height:0px;
+                margin-top: 9px;
+                position:absolute;
+            }
+            .sidebar {
+                background-color: #ecf0f1;
+                display: block;
+                float:left;
+               padding: 0 !important;
+               margin: 0 !important;
+
+            }
+            html, body, .container-fluid, .row, .sidebar{
+                height: 100%;
+            }
+            .main-content {
+                height: 100%;
+                padding-left:0;
+                padding-right: 0;
+            }
+            .title {
+                margin-left: 20px;
+                margin-top: 20px !important;
+
+                display: block;
+            }
+
+            .quorum-logo{
+                background-color:#fff;
+                width:100%;
+                padding-top:20px;
+                height:100px;
+                margin-top: -20px;
+                text-align:center;
+
+            }
+
+            .sidebar ul {
+                list-style: none;
+                padding-left: 10px;
+            }
+
+            h2 {
+                font-size: 11px;
+                font-weight: bold;
+                color :#34495e;
+                text-transform: uppercase;
+                letter-spacing: 1px
+            }
+            .addpadding {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .stats {
+                margin-top: 30px;
+                border-top: 1px solid #000;
+                border-bottom: 1px solid #000;
+                height:130px;
+                display: block;
+            }
+
+            .stats-name {
+                float:left;
+            }
+
+            .stats-number {
+                float:right;
+                margin-top: 15px;
+                font-size: 12px;
+            }
+
+            .stats-number .n2 {
+                margin-top: 16px;
+            }
+
+            .stats-number .n3 {
+                margin-top: 20px;
+            }
+
+            .stats-number .n4 {
+                margin-top: 20px;
+            }
+
+            .info-generales {
+                margin-top: 40px;
+                display: block;
+
+            }
+
+            .info-generales .results {
+                margin-top: -8px;
+                margin-bottom: -10px;
+                display: block;
+
+            }
+
+            .dpt {
+                margin-top: 20px;
+                display: block;
+            }
+
+            .dpt .tours {
+                float:left;
+            }
+
+           .dpt .percentage-tour {
+                float:right;
+                font-size: 12px;
+            }
+
+            .dpt .percentage-tour .n1 {
+                margin-top: 18px;
+            }
+            .dpt .percentage-tour .n2 {
+                margin-top: 13px;
+            }
+            
+            .non-info {
+                text-align: center;
+                display:block;
+                color: #ecf0f1;
+                margin-top: 100px;
+                padding-top:5px; 
+                padding-bottom:5px; 
+                margin-bottom: 0px;
+
+                border : 1px solid #ecf0f1;
+            }
+
+            #resultat_prio {
+                font-size: 11px;
+                font-weight: bold;
+                color :#000;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-top: 30px;
+                text-align: center;
+               
+            }
+
+            .nav-tabs{
+                background-color: #34495e;
+                margin-bottom: 0px;
+                border-radius: 0px;
+                height: 80px;
+            }
+
+            .nav-tabs ul {
+                list-style: none;
+                padding-top: 25px;
+            }
+
+            .nav-tabs li {
+                display:inline-block;
+                margin-right: 40px;
+            }
+
+            .nav-tabs button {
+                border-radius: 0;
+            }
+            .nav-tabs button:focus {outline:0;}
+
+            .nav-tabs .btn-default {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 11px;
+
+            }
+
+            #map-priorisation {
+                background-color: #34495e;
+                border:2px solid #f14e6c;
+                color:#fff;
+            }
+
+            #map-priorisation:hover {
+                background-color: #f14e6c;
+                border:2px solid #f14e6c;
+                color:#fff;
+            }
+
+            .map-priorisation-active {
+                background-color: #f14e6c !important;
+                border:2px solid #f14e6c !important;
+                color:#fff !important;
+            }
+
+            #map-agriculteurs {
+                background-color: #34495e;
+                border:2px solid #8256f5;
+                color:#fff;
+            }
+
+            #map-agriculteurs:hover {
+                background-color: #8256f5;
+                border:2px solid #8256f5;
+                color:#fff;
+            }
+            .map-agriculteurs-active {
+                background-color: #8256f5 !important;
+                border:2px solid #8256f5 !important;
+                color:#fff !important;
+            }
+
+            #map-chomeurs {
+                background-color: #34495e;
+                border:2px solid #DC45A3;
+                color:#fff;
+            }
+
+            #map-chomeurs:hover {
+                background-color: #DC45A3;
+                border:2px solid #DC45A3;
+                color:#fff;
+            }
+            .map-chomeurs-active{
+                background-color: #DC45A3 !important;
+                border:2px solid #DC45A3 !important;
+                color:#fff !important;
+            }
+            #map-popfr {
+                background-color: #34495e;
+                border:2px solid #00D19C;
+                color:#fff;
+            }
+
+            #map-popfr:hover {
+                background-color: #00D19C;
+                border:2px solid #00D19C;
+                color:#fff;
+            }
+
+            .map-popfr-active {
+                background-color: #00D19C !important;
+                border:2px solid #00D19C !important;
+                color:#fff !important;
+            }
+
+            .info {
+                float:right;
+                display: block;
+            }
+
+            #indicateurs-info {
+                background-color: #34495e;
+                border:2px solid #20BFFB;
+                color:#fff;
+            }            
+
+            #indicateurs-info:hover {
+                background-color: #20BFFB;
+                border:2px solid #20BFFB;
+                color:#fff;
+            }
+            
+            .modal-body {
+              height:400px;
+              overflow:auto;
+              text-align: justify;
+            }
+
+            #basicModal {
+                margin-top: 40px;
+            }
+
+            #basicModal h3 {
+                font-size: 12px;
+                font-weight: bold;
+                color :#34495e;
+                text-transform: uppercase;
+                letter-spacing: 1px
+            
+            }
+
+            #legende {
+                position: absolute;
+                z-index: 1002;
+                background-color: white;
+                opacity: 0.9;
+                padding-left: 15px;
+                padding-top: 5px;
+                width:180px;
+                height:90px;
+                bottom:40px;
+                right: 60px;
+            }
+
+            #legende ul {
+                list-style: none;
+                padding-left: 0;
+
+            }
+
+
+
+
+                     
+            </style>
+    </head>
+    <body>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-2 sidebar">
+                    <div class="quorum-logo">
+                    <span class="title"><a href="http://quorumapp.co" target="_blank"><img src="./quorum2.png" alt="Quorum"></a></span>
+                    </div>
+                    
+                    <div class="addpadding">
+                    <div class="info-generales">
+
+                            <ul>
+                                <li><h2 id="title-map">Carte de priorisation</h2></li>
+
+
+                                <li><h2>Code commune</h2></li>
+                                <li class="results" id="code_commune">-</li>
+                                <li><h2>N° Bureau de vote </h2></li>
+                                <li class="results" id="numero_bdv">-</li>
+                                <li><h2>Nombre d'inscrits <br/></li>
+                                <li class="results" id="nombre_inscrits">-</li>
+                                <li class="results" id="resultat_prio"><br/><br/></li>
+
+                            </ul>
+
+                    </div>
+
+
+
+                    <div class="stats">
+
+                            <ul class="stats-name">
+                                <li><h2>Chomeurs</h2></li>
+                                <li><h2>Agriculteurs</h2></li>
+                                <li><h2>Population <br> française</h2> </li>
+                            </ul>
+
+                            <ul class="stats-number">
+                                <li class="n1" ><b><span id="chomeurs">-</span></b></li>
+                                <li class="n2"><b><span id="agriculteurs">-</span></b></li>
+                                <li class="n4" ><b><span id="population_francaise">-</span></b></li>
+                            </ul>
+
+                    </div>
+
+                    <div class="dpt">
+                            
+
+                            <h2 style='text-align:center'>Résultats départementales</h2>
+                            <h2 style='text-align:center; margin-top: -5px;'>(Droite)</h2>
+
+                            <ul class="tours">
+                                <li><h2>1<sup>er</sup> tour </h2></li>
+                                <li><h2>2<sup>ème</sup> tour </h2></li>
+
+                            </ul>
+
+                            <ul class="percentage-tour">
+                                <li class="n1"><b><span id="dpt_1">-</span></b></li>
+                                <li class="n2"><b><span id="dpt_2">-</span></b></li>
+                            </ul>
+
+                    </div>
+                    
+                    <h2 class='non-info' id='non-info'>Aucune informations disponibles</h2>
+
+
+
+                </div>
+                </div>
+                <div class="col-md-10 main-content ">
+                    <nav class="navbar nav-tabs" id="nav-tabs-barre">
+                        <div class="container">
+                            <ul>
+                                <li><button type="button" class="btn btn-default map-priorisation-active" id="map-priorisation">Priorisation</button></li>
+                                <li ><button type="button" class="btn btn-default" id="map-agriculteurs"> % Agriculteurs</button></li>
+                                <li ><button type="button" class="btn btn-default" id="map-chomeurs"> % Chomeurs</button></li>
+                                <li><button type="button" class="btn btn-default" id="map-popfr"> % Population FR</button></li>
+                                <li><button type="button" class="btn btn-default" id="indicateurs-info" data-toggle="modal" data-target="#basicModal"> ?</button></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                <h4 class="modal-title" id="myModalLabel">Informations</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                <p><i class="fa fa-info-circle" aria-hidden="true"></i> &nbsp; Le découpage au niveau infra-communal est à l'échelle du bureau de vote</p>
+                                <h3> <i class="fa fa-angle-right" aria-hidden="true"></i> Priorisation</h3>
+
+                                <p>
+                                La Priorisation permet d’alimenter le simple affichage des résultats électoraux et d’enrichir cette analyse en intégrant d’autres déterminants du vote.. 
+                                </p>
+                                <p>
+                                La Priorisation, tel que nous le présenterons, sera unique à chaque parti (ou ensemble de partis) sur un territoire donné afin de fournir une analyse unique et adaptée. En effet l'hypothèse selon laquelle les déterminants de vote ont un impact homogène indépendamment du parti et du territoire est statistiquement assez facile à rejeter. 
+                                </p>
+                                 <p>
+                                C'est pourquoi la particularité et la puissance de cette Priorisation,  comme nous le montrerons en détail dans ce document, réside dans le fait qu'il sélectionne lui même les déterminants du vote qui ont un rôle significatif sur le comportement électoral. 
+                                </p>
+                                <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Agriculteurs</h3>
+
+                                <p>Agriculteur est une catégorie socioprofessionnelle définie par l'INSEE. L'INSEE dénombre en effet le nombre d'agriculteurs dans la population de plus 15 ans.  Notre indicateur est calculé en pourcentage de la population totale de plus de 15 ans. </p>
+
+                                <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Chômeurs</h3>
+
+                                <p>Cet indicateur calculé en pourcentage de la population totale. </p> 
+
+                                <p>Selon l'INSEE, au sens du recensement, est chômeur toute personne de 14 à 70 ans qui s'est déclarée "chômeur" (indépendamment d'une éventuelle inscription auprès du Pôle emploi), sauf si elle a déclaré explicitement par ailleurs ne pas rechercher de travail.</p>
+
+                                <p>La définition du chômage au sens du recensement diffère de celles du Bureau international du travail (BIT) et du Pôle emploi. Le chômage au recensement est plus élevé que le chômage au sens du BIT, car les personnes inactives ont parfois tendance à se déclarer au chômage alors qu'elles ne répondent pas à tous les critères du BIT. </p>
+
+                                <h3><i class="fa fa-angle-right" aria-hidden="true"></i> Population française</h3>
+
+                                <p>Le terme français, selon le recensement, s'oppose au terme étranger, il s'agit d'un individu ayant la nationalité française. Cet indicateur est calculé en pourcentage de la population totale. </p>
+
+                                </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    </nav>
+                   
+                    <div id="v-map"></div>
+                    <div id="legende">
+                        <ul>
+                            <li id="legende-1"><i class="fa fa-circle" aria-hidden="true"></i> > 60 %</li>
+                            <li id="legende-2"><i class="fa fa-circle" aria-hidden="true"></i> > 60 %</li>
+                            <li id="legende-3"><i class="fa fa-circle" aria-hidden="true"></i> > 60 %</li>
+                            <li id="legende-4"><i class="fa fa-circle" aria-hidden="true"></i> > 60 %</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+  
+
+
+         <script src="./js/d3.v3.min.js" charset="utf-8"></script>
+		 <script src="./js/jquery-2.2.1.min.js" charset="utf-8"></script>
+    
+         <script src="./js/Underscore.js"></script>
+         <script src="./js/bootstrap.min.js"></script>
+         <script src="./js/main.js"></script>
+
+    </body>
+</html>

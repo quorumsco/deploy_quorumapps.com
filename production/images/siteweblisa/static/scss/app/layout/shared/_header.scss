@@ -1,0 +1,57 @@
+@include exports('header') {
+	header{
+		color: $white-color;
+		text-align: center;
+	}
+	.big {
+		height: 664px;
+		@media(max-width: 425px){
+			height: 350px;
+		}
+	}
+	.small {
+		height: 69px;
+		@media(max-width: 425px){
+			height: 84px;
+		}
+	}
+	#home{
+		background: url('../images/header/home-header2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: left;
+		.container{
+			h1 {
+				span {
+					display: block;
+				}
+			}
+			margin: 0 calc(8% + 17px);
+			padding-top: 180px;
+			.subtitle {
+				font-size: 24px;
+			}
+			button:hover {
+				background-color: $red;
+			}
+
+		}
+
+		@media(max-width: 425px){
+			background-size: auto auto;
+			.container {
+				margin: 0 0 0 5%;
+				padding-top: 84px;
+				.subtitle {
+					font-size: 20px;
+				}
+				h1 {
+					span {
+						display: inline;
+					}	
+				}
+			}
+		}
+	}
+	#about {}
+}

@@ -1,0 +1,234 @@
+@include exports('webconsole') {
+	#webconsole {
+		margin-top: 10px;
+		background: url('../images/home/desktop3.png');
+		background-repeat: no-repeat;
+		background-position: 98%;
+		background-size: auto 100%;
+		opacity: 0;
+		h3 {
+			width:60%;
+			p {
+				margin: 0 0 11px 0;
+				color: $font-color;
+				display: inline-block;
+			}
+		}
+		.container{
+			margin-left: calc(8% + 27px);
+			text-align: left;
+			width: 90%;
+		}
+		.list {
+			div.sentence { 
+				color: $grey;
+				width: 50%;
+				padding: 10px 0;
+				display: inline-block;
+				line-height: 20px;
+				strong.highlight {
+					padding: 1px 3px;
+					background: $green;
+					color: white;
+				}
+			}
+			div.icon {
+				width: 14px;
+				float: left;
+				padding: 7px;
+			}
+		}
+		.sentence {
+			display: inline-block;
+		}
+	}
+	@media(max-width: 351px) {
+		#webconsole {
+			.sentence {
+				width: 80%;
+				padding-left: 10px;
+				.part {
+					padding-left: 0px; 
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	@media(max-width: $small-screen) {
+		#webconsole {
+			div.container {
+				margin: 0 auto;
+				width: calc(100% - 20px);
+			}
+		}
+	}
+	@media(max-width: 767px) {
+		#webconsole {
+			.container {
+				max-width: 760px;	
+			}
+			opacity: 1;
+			.list {
+				div.sentence {
+					width: 86%;
+				}
+			}
+		}
+	}
+	@media(max-width: $medium-screen) {
+		#webconsole {
+			h3 {
+				width: 80%;
+			}
+			.container {
+				margin: 0 auto;
+			}
+		}
+	}
+	@media(min-width: 768px) and (max-width: 1024px) {
+		#webconsole {
+			h3 {
+				width: 60%;
+			}
+			.container {
+				max-width: 1000px;
+			}
+		}
+	}
+	@media(max-width: 1024px) {
+		#webconsole {
+			.list {
+				div.sentence {
+					width: 90%;
+				}
+			}
+		}
+	}
+	@media(max-width: 1024px){
+		#webconsole {
+			margin-top: 20px;
+			background: none;
+			.container {
+				width: 90%;
+				margin: 0 8%;
+			}
+			p {
+				&:first-child{
+					display: inline;
+				}
+			}
+			h3 {
+				margin-bottom: 11px;
+			}
+			.list {
+				div.sentence {
+					width: 90%;
+				}
+			}
+		}
+	}
+	@media(min-width: 1025px) and (max-width: 1150px){
+		#webconsole {
+			h3 {
+				width: 80%;
+			}
+			background-size: auto 71%;
+			background-position: 100% 76%;
+			.list {
+				div.sentence { 
+					width: 38%;
+				}
+			}
+			h3 {
+				p {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	@media(min-width: 1025px) and (max-width: 1150px){
+		#webconsole {
+			h3 {
+				width: 80%;
+			}
+			background-size: auto 68%;
+			background-position: 100% 70%;
+			.list {
+				div.sentence { 
+					width: 38%;
+				}
+			}
+			h3 {
+				p {
+					display: inline-block;
+				}
+			}
+		}
+	}
+	@media(min-width: 1151px) and (max-width: 1221px){
+		#webconsole {
+			h3 {
+				width: 80%;
+			}
+			background-size: auto 70%;
+			background-position: 95% 80%;
+			.list {
+				div.sentence { 
+					width: 38%;
+				}
+			}
+		}
+	}
+	@media(min-width: 1222px) and (max-width: 1350px){
+		#webconsole {
+			h3 {
+				width: 80%;
+				p {
+					display: block;
+				}
+			}
+			background-size: auto 80%;
+			background-position: 97% 85%;
+			.list {
+				div.sentence { 
+					width: 45%;
+				}
+			}
+		}
+	}
+	@media(min-width: 1351px) and (max-width: 1440px){
+		#webconsole {
+			background-size: auto 90%;
+			background-position: 95% 93%;
+			.list {
+				div.sentence { 
+					width: 50%;
+				}
+			}
+		}
+	}
+	@media(min-width: 1441px) {
+		#webconsole {
+			h3 {
+				width: 60%;
+			}
+		}
+	}
+	@media(min-width: 1600px) and (max-width: 2300px) {
+		#webconsole {	
+			background-position: 87%;
+			.container {
+				margin-left: 15%;
+			}
+		}
+	}
+	@media(min-width: 2301px) {
+		#webconsole {	
+			background-position: 77%;
+			.container {
+				margin-left: 20%;
+				width: auto;
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+build
+Desktop.ini
+node_modules
+static/vendor
+public/javascripts/
+public/stylesheets/
+Gemfile.lock
+.jshintrc

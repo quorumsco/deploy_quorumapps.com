@@ -1,0 +1,199 @@
+@include exports('newsletter') {
+	#newsletter{
+		width: 100%;
+		height: auto;
+		position: fixed;
+		bottom: 0px;
+		overflow: auto;
+		z-index: 1;
+		display: none;
+			.container {
+				margin-right: 20px;
+				background: $light-grey;
+				padding: 2px;
+				width: 35%;
+				box-shadow: 1px 1px 8px $grey;
+				border-style: solid;
+				border-width: .5px;
+				border-color: $grey;
+
+				div {
+					&.banner {
+						position: relative;
+						margin-bottom: 2px;
+						.leave {
+							position: absolute;
+							top: 0;
+							right: 0;
+							margin: -10px -17px 0 0;
+							background: transparent;
+							color: $font-color;
+						}
+						img {
+							margin-top: 3px;
+							max-width: 150px;
+						}
+					}
+					p {
+						margin-top: 10px;
+					}
+					form {
+						margin: 0 auto;
+						input {
+							background: transparent;
+							margin: 20px auto;
+							border: 0px;
+							border-bottom: 2px solid #E0E0E0;
+							outline: 0px;
+							width: 75%;
+						}
+						.input {
+							width: 75%;
+							margin: 0 0 0 8%;
+							position: relative;
+							.border-input{
+								position: absolute;
+								width: 0px;
+								height: 2px;
+								&.active {
+									width: 75%;
+								}
+							}
+							.border-input {
+								top: 38px;
+								margin-left: 3.3vw;
+							}
+						}
+						button {
+							position: absolute;
+							bottom: 20px;
+							padding: 2px;
+							border-radius: 2px;
+							width: 35px;
+							height: 35px;
+							font-size: 0.9em;
+							margin-left: 20px;
+						}
+					}
+				}
+			}
+	}
+	@media(max-width: 769px) and (orientation: portrait) {
+		#newsletter {
+			.container {
+				max-width: 769px;
+				width: auto;
+				margin-left: 20px;
+				div.banner {
+					img {
+						margin-top: 5px;
+					}
+				}
+				div {
+					form {
+						width: 100%;
+						input {
+							width: 75%;
+							border-bottom: 2px solid #E0E0E0;
+						}
+						.input {
+							.border-input {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	@media(max-height: 320px) and (orientation: landscape) {
+		#newsletter {
+			padding-top: 0px;
+			.container {
+				max-width: 768px;
+				padding: 5px;
+				max-height: 320px;
+				div.banner {
+					img {
+						margin-top: 5px;
+					}
+				}
+				div {
+					form {
+						width: 100%;
+					}
+					input {
+						width: 75%;
+					}
+				}
+			}
+		}
+	}
+	@media(min-height: 321px) and (max-height: 350px) and (orientation: landscape) {
+		#newsletter {
+			padding-top: 0px;
+			.container {
+				max-width: 768px;
+				padding: 5px;
+				max-height: 350px;
+				div.banner {
+					img {
+						margin-top: 5px;
+					}
+				}
+				div {
+					form {
+						width: 100%;
+					}
+					input {
+						width: 75%;
+					}
+				}
+			}
+		}
+	}
+	@media(min-height: 351px) and (max-height: 450px) and (orientation: landscape) {
+		#newsletter {
+			padding-top: 0px;
+			.container {
+				max-width: 768px;
+				padding: 5px;
+				max-height: 350px;
+				div.banner {
+					img {
+						margin-top: 5px;
+					}
+				}
+				div {
+					form {
+						width: 100%;
+					}
+					input {
+						width: 75%;
+					}
+				}
+			}
+		}
+	}
+	@media(max-height: 450px) and (orientation: landscape) {
+		#newsletter {
+			.container {
+				div {
+					form {
+						width: 100%;
+						input {
+							width: 75%;
+							border-bottom: 2px solid #E0E0E0;
+						}
+						.input {
+							.border-input {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

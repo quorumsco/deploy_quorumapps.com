@@ -1,0 +1,16 @@
+icescrum.login.retrieve.enable=false
+icescrum.registration.enable=true
+icescrum.project.import.enable=true
+icescrum.gravatar.enable=false
+dataSource.driverClassName="org.hsqldb.jdbcDriver"
+icescrum.project.creation.enable=true
+icescrum.alerts.enable=false
+icescrum.project.private.default=true
+icescrum.invitation.enable=false
+icescrum.project.private.enable=true
+dataSource.username="sa"
+icescrum.baseDir="/root/icescrum"
+icescrum.log.dir="/root/logs/"
+icescrum.debug.enable=false
+dataSource.url="jdbc:hsqldb:file:/root/hsqldb/prodDba;shutdown=true"
+icescrum.project.export.enable=true

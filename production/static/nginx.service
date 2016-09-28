@@ -4,14 +4,14 @@ Description=Nginx load balancer for web server backends
 # Requirements
 Requires=etcd.service
 Requires=docker.service
-Requires=ghost.service
-Requires=quorumapps.com.service
+#Requires=ghost.service
+Requires=siteweblisa.service
 
 # Dependency ordering
 After=etcd.service
 After=docker.service
-After=ghost.service
-After=quorumapps.com.service
+#After=ghost.service
+After=siteweblisa.service
 
 [Service]
 # Let the process take awhile to start up (for first run Docker containers)
@@ -30,11 +30,11 @@ EnvironmentFile=/etc/environment
 ExecStartPre=-/usr/bin/docker kill ${CONTAINER}
 ExecStartPre=-/usr/bin/docker rm ${CONTAINER}
 ExecStartPre=/usr/bin/docker pull ${IMAGE}
-ExecStart=/usr/bin/docker run --name ${CONTAINER} -p 80:80 \
+ExecStart=/usr/bin/docker run --name nginx -p 80:80 -v /root/deploy_quorumapps.com/production/configs/nginx/nginx.conf:/etc/nginx/nginx.conf:ro -v /root/deploy_quorumapps.com/production/configs/nginx/sites-enabled:/etc/nginx/sites-enabled:ro --volumes-from siteweblisa nginx
+#ExecStart=/usr/bin/docker run --name ${CONTAINER} -p 80:80 \
 	-v ${DEPLOY_SRC}/configs/${CONTAINER}/nginx.conf:/etc/nginx/nginx.conf:ro \
 	-v ${DEPLOY_SRC}/configs/${CONTAINER}/sites-enabled:/etc/nginx/sites-enabled:ro \
-	--volumes-from quorumapps.com \
-	--link ghost:ghost ${IMAGE}
+	--volumes-from siteweblisa
 
 # Reload
 ExecReload=/usr/bin/docker kill -s HUP ${CONTAINER}

@@ -1,0 +1,777 @@
+2016-09-12 08:08:11,346 [localhost-startStop-1] INFO  grails.spring.BeanBuilder  - [RuntimeConfiguration] Configuring data source for environment: PRODUCTION
+2016-09-12 08:08:18,984 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:08:19,553 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:08:25,374 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:08:25,416 [localhost-startStop-1] WARN  net.sf.ehcache.CacheManager  - Creating a new instance of CacheManager using the diskStorePath "/usr/local/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was classpath.
+The diskStore path for this CacheManager will be set to /usr/local/tomcat/temp/ehcache_auto_created_1473667705416.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-09-12 08:08:25,959 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:08:25,962 [localhost-startStop-1] WARN  net.sf.ehcache.CacheManager  - Creating a new instance of CacheManager using the diskStorePath "/usr/local/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was classpath.
+The diskStore path for this CacheManager will be set to /usr/local/tomcat/temp/ehcache_auto_created_1473667705962.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-09-12 08:08:28,933 [localhost-startStop-1] INFO  org.codehaus.groovy.grails.scaffolding.DefaultGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@2e120bdb: startup date [Mon Sep 12 08:08:15 UTC 2016]; parent: Root WebApplicationContext
+2016-09-12 08:08:45,580 [localhost-startStop-1] ERROR org.hibernate.util.JDBCExceptionReporter  - Column not found: ADDED in statement [SELECT id, added, modified, removed, added_data, modified_data, removed_data FROM icescrum2_scm_commit]
+2016-09-12 08:08:47,971 [localhost-startStop-1] ERROR org.hibernate.util.JDBCExceptionReporter  - Column not found: TEXT_AS in statement [SELECT id, text_as, textican, text_to
+                                                                 FROM icescrum2_story
+                                                                 WHERE text_as IS NOT NULL OR textican IS NOT NULL OR text_to IS NOT NULL]
+2016-09-12 08:08:48,293 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ScmEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,312 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ManagementEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,339 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact IceboxEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,354 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact CloudStorageEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,367 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact EmbeddedEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,376 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BundleEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,386 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BugtrackerEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,394 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact FeedbackEntryPoints mapper element is not loadable
+2016-09-12 08:08:48,398 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact TeamCommunicationEntryPoints mapper element is not loadable
+2016-09-12 08:08:51,463 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:08:54,688 [localhost-startStop-1] INFO  AutobaseGrailsPlugin  - ---- Starting Autobase migrations  ----
+2016-09-12 08:08:55,459 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Successfully acquired change log lock
+2016-09-12 08:08:57,031 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Creating database history table with name: DATABASECHANGELOG
+2016-09-12 08:08:57,050 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Reading from DATABASECHANGELOG
+2016-09-12 08:08:57,338 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: remove_resource_column_sprint ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'resource' does not exist
+
+2016-09-12 08:08:57,353 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::remove_fantom_sprint_availabilities::vbarrier ran successfully in 4ms
+2016-09-12 08:08:57,357 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::remove_fantom_sprint_timebox::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,361 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::remove_fantom_sprint_sprints::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,364 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: rename_initial_remaining_hours_column ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,377 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: rename_initial_remaining_hours_column_hsql ran despite precondition failure due to onFail='MARK_RAN': 
+           : SQL Precondition failed.  Expected '1' got '0'
+
+2016-09-12 08:08:57,380 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: rename_password_column ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,389 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: rename_password_column_hsql ran despite precondition failure due to onFail='MARK_RAN': 
+           : SQL Precondition failed.  Expected '1' got '0'
+
+2016-09-12 08:08:57,391 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: add_uid_column_user ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,396 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: add_uid_column_user_postgresql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected postgresql, got hsqldb
+
+2016-09-12 08:08:57,399 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: add_uid_column_user_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,403 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_uid_column_user_hsql::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,412 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_constraint_external_column::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,415 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_constraint_external_column_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,418 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_add_value_lastlogin::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,419 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_add_value_lastlogin_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,421 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_add_value_lastlogin_sql ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,422 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: add_uid_column_team ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,426 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_uid_column_team_hsql::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,429 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: add_uid_column_team_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,432 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: product_teams_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,434 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: fluxiable_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,438 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::timebox_add_constraint_dateCreated::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,441 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::timebox_add_constraint_lastUpdated::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,443 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: timebox_add_constraint_dateCreated_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,445 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: timebox_add_constraint_lastUpdated_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,448 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: timebox_change_text_datatype_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,450 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: timebox_add_constraint_dateCreated_sql ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,452 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: timebox_add_constraint_lastUpdated_sql ran despite precondition failure due to onFail='MARK_RAN': 
+           : Not precondition failed
+
+2016-09-12 08:08:57,461 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::product_preferences_constraint_releasePlanningHour_column::vbarrier ran successfully in 4ms
+2016-09-12 08:08:57,466 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::product_preferences_constraint_hideweekend_column::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,468 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: product_preferences_constraint_hideweekend_column_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,510 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: product_preferences_drop_lock_po_column ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'lock_po' does not exist
+
+2016-09-12 08:08:57,513 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: product_preferences_drop_new_teams_column ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'new_teams' does not exist
+
+2016-09-12 08:08:57,523 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::product_preferences_constraint_R3_R4_column::vbarrier ran successfully in 8ms
+2016-09-12 08:08:57,527 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: product_preferences_constraint_R3_R4_column_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,532 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::product_preferences_default_stakeHolderRestrictedViews::vbarrier ran successfully in 0ms
+2016-09-12 08:08:57,535 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_preferences_constraint_hideDoneState::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,537 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_preferences_constraint_hideDoneState_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,556 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_preferences_drop_column_timezone ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'timezone' does not exist
+
+2016-09-12 08:08:57,559 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_update_en_to_us::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,566 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_preferences_constraint_displayWhatsNew::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,572 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_preferences_constraint_displayWhatsNew_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,581 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_preferences_displayWelcomeTourAndfullProjectTour::vbarrier ran successfully in 7ms
+2016-09-12 08:08:57,584 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_preferences_displayWelcomeTourAndfullProjectTour_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,588 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::user_preferences_reset_displayWhatsNew_R614.11Pro::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,590 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_preferences_reset_displayWhatsNew_mssql_R614.11Pro ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,613 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: team_preferences_drop_allow_role_change_column ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'allow_role_change' does not exist
+
+2016-09-12 08:08:57,615 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::task_constraint_block_column::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,617 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: task_constraint_block_column_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,620 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::task_estimation_integer_tofloat_column::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,623 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: story_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,624 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: actor_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,626 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: feature_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,628 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: domain_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,630 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: impediment_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,632 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: task_modify_notes_datatype_text_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,634 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_update_en_to_us_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,636 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: availability_default_latitude_range_thresholds_oracle ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,639 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_update_display_whats_new ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,641 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_update_display_welcome_tour ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,643 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: user_reset_display_whats_new_R614.11Pro ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected oracle, got hsqldb
+
+2016-09-12 08:08:57,656 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: commit_remove_added ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'added' does not exist
+
+2016-09-12 08:08:57,662 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: commit_remove_modified ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'modified' does not exist
+
+2016-09-12 08:08:57,665 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: commit_remove_removed ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'removed' does not exist
+
+2016-09-12 08:08:57,668 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::commit_modify_message_datatype_text::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,672 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::scm_preferences_constraint_enableBuild::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,674 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: scm_preferences_constraint_enableBuild_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,678 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::availability_default_latitude_range_thresholds::vbarrier ran successfully in 2ms
+2016-09-12 08:08:57,681 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::availability_display_latitude::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,683 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: availability_display_latitude_mssql ran despite precondition failure due to onFail='MARK_RAN': 
+           : DBMS Precondition failed: expected mssql, got hsqldb
+
+2016-09-12 08:08:57,692 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: remove_id_from_import_column_feature ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'id_from_import' does not exist
+
+2016-09-12 08:08:57,694 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: remove_id_from_import_column_task ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'id_from_import' does not exist
+
+2016-09-12 08:08:57,696 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: remove_id_from_import_column_story ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'id_from_import' does not exist
+
+2016-09-12 08:08:57,705 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: remove_id_from_import_column_impediment ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'id_from_import' does not exist
+
+2016-09-12 08:08:57,713 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_uid_column_backlogelement::vbarrier ran successfully in 7ms
+2016-09-12 08:08:57,719 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::remove_not_null_origin_story::vbarrier ran successfully in 0ms
+2016-09-12 08:08:57,732 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Marking ChangeSet: story_remove_template ran despite precondition failure due to onFail='MARK_RAN': 
+           : Column 'text_as' does not exist
+
+2016-09-12 08:08:57,735 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_acceptance_test_state_success_on_done_stories::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,737 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_acceptance_test_state_tocheck_on_remaining_tests::vbarrier ran successfully in 0ms
+2016-09-12 08:08:57,740 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_acceptance_test_state_non_nullable::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,743 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::story_effort_from_integer_to_numeric::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,745 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - ChangeSet ::add_IX_fluxiable_activity_link_activity_ref::vbarrier ran successfully in 1ms
+2016-09-12 08:08:57,750 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Successfully released change log lock
+2016-09-12 08:08:57,753 [localhost-startStop-1] INFO  AutobaseGrailsPlugin  - ---- Autobase migrations completed ----
+2016-09-12 08:09:00,294 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ScmEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,295 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ManagementEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,298 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact IceboxEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,299 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact CloudStorageEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,300 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact EmbeddedEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,302 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BundleEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,303 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BugtrackerEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,304 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact FeedbackEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,305 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact TeamCommunicationEntryPoints mapper element is not loadable
+2016-09-12 08:09:00,868 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:09:00,873 [localhost-startStop-1] INFO  org.codehaus.groovy.grails.web.context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-09-12 08:09:01,001 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installing BroadcastFilter class(es) org.atmosphere.client.TrackMessageSizeFilter
+2016-09-12 08:09:01,050 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereHandler org.icescrum.atmosphere.IceScrumAtmosphereHandler@4e71ac15 mapped to context-path: /stream/app/*
+2016-09-12 08:09:01,086 [localhost-startStop-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:09:01,091 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Auto detecting WebSocketHandler in /WEB-INF/classes/
+2016-09-12 08:09:08,385 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2016-09-12 08:09:08,389 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/7.0.70 using javax.servlet/3.0
+2016-09-12 08:09:08,389 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereInterceptor Browser disconnection detection. 
+2016-09-12 08:09:08,389 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol. 
+2016-09-12 08:09:08,390 [localhost-startStop-1] WARN  org.atmosphere.cpr.AtmosphereFramework  - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using BroadcastFilter: org.atmosphere.client.TrackMessageSizeFilter
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Shared ExecutorService supported: true
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - HttpSession supported: false
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2016-09-12 08:09:08,390 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using Broadcaster: org.icescrum.atmosphere.IceScrumBroadcaster
+2016-09-12 08:09:08,391 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Atmosphere Framework 1.0.15 started.
+2016-09-12 08:09:08,391 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+2016-09-12 08:09:08,632 [Thread-8] INFO  org.atmosphere.cpr.AtmosphereFramework  - 
+
+	Current version of Atmosphere 1.0.15 
+	Newest version of Atmosphere available 2.0.10
+
+
+2016-09-12 08:23:13,976 [localhost-startStop-1] INFO  grails.spring.BeanBuilder  - [RuntimeConfiguration] Configuring data source for environment: PRODUCTION
+2016-09-12 08:23:20,765 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:23:21,240 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:23:26,814 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:23:26,857 [localhost-startStop-1] WARN  net.sf.ehcache.CacheManager  - Creating a new instance of CacheManager using the diskStorePath "/usr/local/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was classpath.
+The diskStore path for this CacheManager will be set to /usr/local/tomcat/temp/ehcache_auto_created_1473668606857.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-09-12 08:23:27,366 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/usr/local/tomcat/webapps/icescrum/WEB-INF/lib/ehcache-core-1.7.1.jar!/ehcache-failsafe.xml
+2016-09-12 08:23:27,369 [localhost-startStop-1] WARN  net.sf.ehcache.CacheManager  - Creating a new instance of CacheManager using the diskStorePath "/usr/local/tomcat/temp" which is already used by an existing CacheManager.
+The source of the configuration was classpath.
+The diskStore path for this CacheManager will be set to /usr/local/tomcat/temp/ehcache_auto_created_1473668607369.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2016-09-12 08:23:30,098 [localhost-startStop-1] INFO  org.codehaus.groovy.grails.scaffolding.DefaultGrailsTemplateGenerator  - Scaffolding template generator set to use resource loader org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@5fc10550: startup date [Mon Sep 12 08:23:17 UTC 2016]; parent: Root WebApplicationContext
+2016-09-12 08:23:46,689 [localhost-startStop-1] ERROR org.hibernate.util.JDBCExceptionReporter  - Column not found: ADDED in statement [SELECT id, added, modified, removed, added_data, modified_data, removed_data FROM icescrum2_scm_commit]
+2016-09-12 08:23:49,019 [localhost-startStop-1] ERROR org.hibernate.util.JDBCExceptionReporter  - Column not found: TEXT_AS in statement [SELECT id, text_as, textican, text_to
+                                                                 FROM icescrum2_story
+                                                                 WHERE text_as IS NOT NULL OR textican IS NOT NULL OR text_to IS NOT NULL]
+2016-09-12 08:23:49,122 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ScmEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,135 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ManagementEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,155 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact IceboxEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,161 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact CloudStorageEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,165 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact EmbeddedEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,170 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BundleEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,174 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BugtrackerEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,178 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact FeedbackEntryPoints mapper element is not loadable
+2016-09-12 08:23:49,182 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact TeamCommunicationEntryPoints mapper element is not loadable
+2016-09-12 08:23:52,275 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:23:55,318 [localhost-startStop-1] INFO  AutobaseGrailsPlugin  - ---- Starting Autobase migrations  ----
+2016-09-12 08:23:55,780 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Successfully acquired change log lock
+2016-09-12 08:23:57,802 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Reading from DATABASECHANGELOG
+2016-09-12 08:23:58,251 [localhost-startStop-1] INFO  liquibase.ext.logging.LiquibaseSlf4jLogger  - Successfully released change log lock
+2016-09-12 08:23:58,255 [localhost-startStop-1] INFO  AutobaseGrailsPlugin  - ---- Autobase migrations completed ----
+2016-09-12 08:24:00,890 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ScmEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,891 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact ManagementEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,894 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact IceboxEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,895 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact CloudStorageEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,899 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact EmbeddedEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,901 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BundleEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,907 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact BugtrackerEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,910 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact FeedbackEntryPoints mapper element is not loadable
+2016-09-12 08:24:00,911 [localhost-startStop-1] WARN  org.icescrum.plugins.entryPoints.EntryPointsDeclarationsFactory  - entries artefact TeamCommunicationEntryPoints mapper element is not loadable
+2016-09-12 08:24:01,495 [localhost-startStop-1] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:24:01,502 [localhost-startStop-1] INFO  org.codehaus.groovy.grails.web.context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2016-09-12 08:24:01,716 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installing BroadcastFilter class(es) org.atmosphere.client.TrackMessageSizeFilter
+2016-09-12 08:24:01,736 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereHandler org.icescrum.atmosphere.IceScrumAtmosphereHandler@364d39ae mapped to context-path: /stream/app/*
+2016-09-12 08:24:01,777 [localhost-startStop-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:24:01,782 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Auto detecting WebSocketHandler in /WEB-INF/classes/
+2016-09-12 08:24:09,457 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2016-09-12 08:24:09,461 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/7.0.70 using javax.servlet/3.0
+2016-09-12 08:24:09,462 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereInterceptor Browser disconnection detection. 
+2016-09-12 08:24:09,462 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Installed AtmosphereInterceptor Atmosphere JavaScript Protocol. 
+2016-09-12 08:24:09,462 [localhost-startStop-1] WARN  org.atmosphere.cpr.AtmosphereFramework  - No BroadcasterCache configured. Broadcasted message between client reconnection will be LOST. It is recommended to configure the org.atmosphere.cache.UUIDBroadcasterCache
+2016-09-12 08:24:09,462 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using BroadcastFilter: org.atmosphere.client.TrackMessageSizeFilter
+2016-09-12 08:24:09,463 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Shared ExecutorService supported: true
+2016-09-12 08:24:09,463 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - HttpSession supported: false
+2016-09-12 08:24:09,463 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2016-09-12 08:24:09,463 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2016-09-12 08:24:09,463 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Using Broadcaster: org.icescrum.atmosphere.IceScrumBroadcaster
+2016-09-12 08:24:09,464 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - Atmosphere Framework 1.0.15 started.
+2016-09-12 08:24:09,464 [localhost-startStop-1] INFO  org.atmosphere.cpr.AtmosphereFramework  - 
+
+	For Atmosphere Framework Commercial Support, visit 
+	http://www.async-io.org/ or send an email to support@async-io.org
+
+2016-09-12 08:24:10,728 [Thread-8] INFO  org.atmosphere.cpr.AtmosphereFramework  - 
+
+	Current version of Atmosphere 1.0.15 
+	Newest version of Atmosphere available 2.0.10
+
+
+2016-09-12 08:24:14,243 [http-nio-8080-exec-9] WARN  org.atmosphere.cpr.AtmosphereServlet  - TomcatCometSupport7 is enabled, switching to it
+2016-09-12 08:26:04,243 [http-nio-8080-exec-5] WARN  grails.util.GrailsUtil  - [WARNING] Property [data] of domain class pl.burningice.plugins.image.ast.Image has type [[B] and doesn't support constraint [blank]. This constraint will not be checked during validation.
+2016-09-12 08:26:06,009 [http-nio-8080-exec-4] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:26:55,839 [http-nio-8080-exec-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:30:01,009 [http-nio-8080-exec-9] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:30:01,040 [http-nio-8080-exec-9] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 08:31:26,495 [http-nio-8080-exec-10] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:31:26,518 [http-nio-8080-exec-10] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-9 support Out Of Order Broadcast: false
+2016-09-12 08:31:29,540 [http-nio-8080-exec-2] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 08:31:29,547 [http-nio-8080-exec-2] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 09:18:29,383 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 09:18:29,413 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 09:20:35,892 [http-nio-8080-exec-8] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 09:20:35,903 [http-nio-8080-exec-8] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 09:58:56,382 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MissingMethodException: No signature of method: org.icescrum.web.presentation.app.StoryController.retunError() is applicable for argument types: (java.util.LinkedHashMap) values: [[text:Error, an estimate is required]]
+Possible solutions: returnError(java.lang.Object), getErrors(), setErrors(org.springframework.validation.Errors)
+2016-09-12 09:58:56,383 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - null
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:206)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.plugins.web.GroovyPagesGrailsPlugin$_registerControllerMethodMissing_closure6.doCall(GroovyPagesGrailsPlugin.groovy:336)
+2016-09-12 09:58:56,393 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.GeneratedMethodAccessor1977.invoke(Unknown Source)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:813)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1107)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1060)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.icescrum.web.presentation.app.StoryController.invokeMethod(StoryController.groovy)
+2016-09-12 09:58:56,394 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1123)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1040)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:706)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethodOnGroovyObject(MetaClassImpl.java:1123)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1040)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.icescrum.web.presentation.app.StoryController$_closure4_closure43.doCall(StoryController.groovy:224)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:266)
+2016-09-12 09:58:56,395 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.icescrum.web.presentation.app.StoryController$_closure4_closure43.call(StoryController.groovy)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:266)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:63)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+2016-09-12 09:58:56,396 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:68)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - IcescrumCoreGrailsPlugin$_addWithObjectsMethods_closure29.doCall(IcescrumCoreGrailsPlugin.groovy:893)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.GeneratedMethodAccessor1820.invoke(Unknown Source)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 09:58:56,400 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - IcescrumCoreGrailsPlugin$_addWithObjectsMethods_closure29.doCall(IcescrumCoreGrailsPlugin.groovy)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.GeneratedMethodAccessor1906.invoke(Unknown Source)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1003)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.icescrum.web.presentation.app.StoryController$_closure4.doCall(StoryController.groovy:190)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 09:58:56,401 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.icescrum.web.presentation.app.StoryController$_closure4.doCall(StoryController.groovy)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.Closure.call(Closure.java:282)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - groovy.lang.Closure.call(Closure.java:277)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+2016-09-12 09:58:56,402 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:560)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,403 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - javax.servlet.FilterChain$doFilter.call(Unknown Source)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - javax.servlet.FilterChain$doFilter.call(Unknown Source)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - grails.plugin.springcache.web.GrailsFragmentCachingFilter.doFilter(GrailsFragmentCachingFilter.groovy:66)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - net.sf.ehcache.constructs.web.filter.Filter.doFilter(Filter.java:86)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,404 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+2016-09-12 09:58:56,411 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:369)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:119)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,412 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.plugins.springsecurity.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:40)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.plugins.springsecurity.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:79)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:168)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:65)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,413 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1756)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1715)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2016-09-12 09:58:56,414 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2016-09-12 09:58:56,415 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2016-09-12 09:58:56,415 [http-nio-8080-exec-4] ERROR grails.app.controller.org.icescrum.web.presentation.app.StoryController  - java.lang.Thread.run(Thread.java:745)
+2016-09-12 10:02:54,093 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.IllegalStateException: is.release.sprints.not.enough.time
+2016-09-12 10:02:54,094 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - null
+2016-09-12 10:02:54,094 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+2016-09-12 10:02:54,094 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+2016-09-12 10:02:54,094 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+2016-09-12 10:02:54,094 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService.generateSprints(SprintService.groovy:193)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:153)
+2016-09-12 10:02:54,095 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService.generateSprints(SprintService.groovy)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService$$FastClassByCGLIB$$be097aa5.invoke(<generated>)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:688)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:67)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:621)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService$$EnhancerByCGLIB$$c84934bb.generateSprints(<generated>)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService$$FastClassByCGLIB$$be097aa5.invoke(<generated>)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:149)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:617)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService$$EnhancerByCGLIB$$7ddb680f.generateSprints(<generated>)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.core.services.SprintService$generateSprints.call(Unknown Source)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.web.presentation.app.ReleaseController$_closure8_closure48.doCall(ReleaseController.groovy:165)
+2016-09-12 10:02:54,096 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:266)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.web.presentation.app.ReleaseController$_closure8_closure48.call(ReleaseController.groovy)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:266)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:63)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:68)
+2016-09-12 10:02:54,097 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - IcescrumCoreGrailsPlugin$_addWithObjectsMethods_closure35.doCall(IcescrumCoreGrailsPlugin.groovy:1010)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:153)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - IcescrumCoreGrailsPlugin$_addWithObjectsMethods_closure35.doCall(IcescrumCoreGrailsPlugin.groovy)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.metaclass.ClosureMetaMethod.invoke(ClosureMetaMethod.java:80)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+2016-09-12 10:02:54,098 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1003)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.web.presentation.app.ReleaseController$_closure8.doCall(ReleaseController.groovy:164)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+2016-09-12 10:02:54,099 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.icescrum.web.presentation.app.ReleaseController$_closure8.doCall(ReleaseController.groovy)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.reflect.Method.invoke(Method.java:606)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1058)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1070)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:886)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.Closure.call(Closure.java:282)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - groovy.lang.Closure.call(Closure.java:277)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleAction(SimpleGrailsControllerHelper.java:368)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.executeAction(SimpleGrailsControllerHelper.java:232)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:190)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsControllerHelper.handleURI(SimpleGrailsControllerHelper.java:129)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.SimpleGrailsController.handleRequest(SimpleGrailsController.java:73)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)
+2016-09-12 10:02:54,100 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.GrailsDispatcherServlet.doDispatch(GrailsDispatcherServlet.java:292)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - javax.servlet.FilterChain$doFilter.call(Unknown Source)
+2016-09-12 10:02:54,101 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - javax.servlet.FilterChain$doFilter.call(Unknown Source)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - grails.plugin.springcache.web.GrailsFragmentCachingFilter.doFilter(GrailsFragmentCachingFilter.groovy:66)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - net.sf.ehcache.constructs.web.filter.Filter.doFilter(Filter.java:86)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:70)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:747)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:485)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:410)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:337)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:298)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:264)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.util.WebUtils.forwardRequestForUrlMappingInfo(WebUtils.java:255)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:183)
+2016-09-12 10:02:54,102 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.obtainContent(GrailsPageFilter.java:245)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.sitemesh.GrailsPageFilter.doFilter(GrailsPageFilter.java:134)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:369)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:97)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:78)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:119)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:54)
+2016-09-12 10:02:54,103 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:187)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.plugins.springsecurity.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:40)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.plugins.springsecurity.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:79)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:79)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:381)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:168)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.servlet.mvc.GrailsWebRequestFilter.doFilterInternal(GrailsWebRequestFilter.java:69)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.codehaus.groovy.grails.web.filters.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:69)
+2016-09-12 10:02:54,104 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:237)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:442)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1082)
+2016-09-12 10:02:54,105 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:623)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1756)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1715)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+2016-09-12 10:02:54,106 [http-nio-8080-exec-2] ERROR grails.app.controller.org.icescrum.web.presentation.app.ReleaseController  - java.lang.Thread.run(Thread.java:745)
+2016-09-12 10:18:45,141 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 10:18:45,147 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-9 support Out Of Order Broadcast: false
+2016-09-12 10:18:55,707 [http-nio-8080-exec-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 10:18:55,722 [http-nio-8080-exec-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-9 support Out Of Order Broadcast: false
+2016-09-12 10:24:59,031 [http-nio-8080-exec-9] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 10:24:59,035 [http-nio-8080-exec-9] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-9 support Out Of Order Broadcast: false
+2016-09-12 10:25:07,132 [http-nio-8080-exec-5] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 10:25:07,142 [http-nio-8080-exec-5] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 11:14:07,695 [http-nio-8080-exec-7] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 11:23:20,340 [http-nio-8080-exec-7] WARN  org.icescrum.core.security.ScrumDetailsService  - User not found: user_test
+2016-09-12 11:23:35,402 [http-nio-8080-exec-1] WARN  org.icescrum.core.security.ScrumDetailsService  - User not found: admin
+2016-09-12 11:23:39,985 [http-nio-8080-exec-6] WARN  org.icescrum.core.security.ScrumDetailsService  - User not found: admin
+2016-09-12 11:24:18,783 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 11:27:04,867 [http-nio-8080-exec-7] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 11:27:04,889 [http-nio-8080-exec-7] INFO  org.atmosphere.cpr.DefaultBroadcaster  - product-1 support Out Of Order Broadcast: false
+2016-09-12 11:29:21,486 [http-nio-8080-exec-4] WARN  org.icescrum.core.security.ScrumDetailsService  - User not found: user_test
+2016-09-12 11:29:24,423 [http-nio-8080-exec-5] WARN  org.icescrum.core.security.ScrumDetailsService  - User not found: user_test
+2016-09-12 13:45:06,777 [http-nio-8080-exec-8] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 14:53:30,305 [http-nio-8080-exec-1] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 15:15:30,344 [http-nio-8080-exec-6] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 15:22:32,846 [http-nio-8080-exec-7] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false
+2016-09-12 15:39:10,372 [http-nio-8080-exec-5] INFO  org.atmosphere.cpr.DefaultBroadcaster  - /stream/app/* support Out Of Order Broadcast: false

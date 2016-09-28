@@ -1,0 +1,224 @@
+@include exports('nav') {
+	#nav {
+		position: fixed;
+		background-color: transparent;
+		width:100%;
+		color: $white-color;
+		font-size: 13px;
+		-webkit-transition:.5s;
+  		-moz-transition:.5s;
+  		transition:.5s;
+  		z-index: 1;
+		.content{
+			.nav-toggle {
+				float: right;
+				display: none;
+				width: 80px; 
+				height: 80px; 
+				background-color: transparent;
+				font-size: 22px;
+				color: $font-color;
+				border: 0px;
+				outline: 0px;
+			}
+			a {
+					color: $white-color;
+				}
+			ul.nav{
+				display: inline-block;
+				padding: 15px 0;
+				li{
+					display: inline;
+					margin-left: 25px;
+					&:last-child{
+						margin-right: 25px;
+					}
+				}
+				a {
+					text-decoration: none;
+					color: $white-color;
+					&:hover {
+						color: $grey;
+					}
+				}
+			}
+			div.bar {
+				float: right;
+				margin-right: 12%;
+			}
+		}
+		.banner{
+			display: inline-block;
+			a{
+				text-decoration: none;
+			}
+			img {
+				padding: 0 5px 0 25px;
+				border-left: 1px solid rgba(255, 255, 255, 0.5);
+			}
+			button{
+				padding: 12px 20px;
+				margin-left:25px;
+				background-color: transparent;
+				border: 1px solid rgba(255, 255, 255, 0.4);
+				letter-spacing : 0.5px;
+				font-size: 14px;
+				font-weight: bold;
+				&:hover {
+					background-color: $red;
+					border: 1px solid rgba(255, 0, 0, 0.4);
+					padding: 12px 20px;
+					letter-spacing : 0.5px;
+				}
+			}
+			.flag {
+				position: absolute;
+				right: 5%;
+				top: 18px;
+				a {
+					text-decoration: none;
+					color: inherit;
+					img {
+						border-left: none;
+						width: 28px;
+					}
+				}
+			}
+			img {
+				vertical-align: middle;
+			}
+		}
+		.navbar-brand{
+			float: left;
+			display: inline;
+			margin-left: 8%;
+			img{
+				margin-top: 10px;
+				width:143px;
+				height: 56px;
+			}
+		}
+	}
+	#nav.active {
+		background-color: $light-grey;
+		color: $font-color;
+		ul.nav {
+			li {
+				a {
+					color: $font-color;
+				}
+			}		
+		}
+		a {
+			color: $font-color;
+		}
+		button {
+			border: none;
+			background-color: $blue;
+			font-weight: normal;
+			padding: 12px 20px;
+			border: 1px solid rgba(255, 255, 255, 0.4);
+			letter-spacing : 0.5px;
+			font-weight: bold;
+		}
+		.banner {
+			i {
+				border-color: $font-color;
+				padding: 0 5px 0 30px;
+				border-left: 1px solid rgba(255, 255, 255, 0.4);
+			}
+			img {
+				-webkit-filter: invert(100%);
+				-moz-filter: invert(100%);
+				filter: invert(100%);
+				-ms-filter: invert(100%);
+			}
+		}
+	}
+	#nav.show-menu{
+		border-bottom: 1px solid #DDD;
+		div.bar {	
+			display: block;
+			margin: 0;
+			width: 100%;
+			ul {
+				border-bottom: 1px solid #DDD;
+				border-top: 1px solid #DDD;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				li {
+					margin: 0;
+					display: block;
+					padding-left: 20px;
+					a {
+						display: block;
+						color: $font-color;
+						padding: 20px 0;
+					}
+				}
+			}
+		}
+		.banner {
+			padding: 20px;
+			display: block;
+			text-align: center;
+			span {
+				padding: 10px 0;
+			}
+			button {
+				background-color: $blue;
+				margin-bottom: 15px;
+				font-size: 14px;
+				&:hover {
+					background-color: $red;
+					letter-spacing : 0.5px;
+				}
+			}
+			img {
+				-webkit-filter: invert(100%);
+				-moz-filter: invert(100%);
+				filter: invert(100%);
+				border-left: 0px;
+			}
+		}
+	}
+	@media(max-width: 1110px){
+		#nav {	
+			background-color: $light-grey;
+			color: $font-color;
+			div.bar {
+				display: none;
+			}
+			.content{
+				.nav-toggle {
+					display: inline-block;
+				}
+			}
+			a.navbar-brand{
+				margin-left: 0px;
+				padding-left: 10px;
+				padding-bottom: 10px;
+				img{
+					width: 180px;
+					margin-top: 12px;
+				}
+			}
+			.banner {
+				i {
+					border: 0px;
+				}
+				img {
+					padding-left: 0px;
+				}
+				button {
+					margin: 25px;
+				}
+				.flag {
+					position: static;
+					display: block;
+				}
+			}
+		}
+	}
+}

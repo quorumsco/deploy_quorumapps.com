@@ -1,0 +1,4457 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.599025,44.802583 ]
+    },
+    "properties": {
+    "num":4580,
+    "Nom":"AJAX",
+    "Prenom":"NICOLE",
+    "Adresse_1":"19 avenue de l'université",
+    "Adresse_2":"",
+    "ref_voie":"Université (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"19 Avenue de l'Université 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888280",
+    "result_housenumber":"19",
+    "result_name":"Avenue de l'Université",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.57534,44.81252 ]
+    },
+    "properties": {
+    "num":230,
+    "Nom":"ALBERO",
+    "Prenom":"ROSE-MARIE",
+    "Adresse_1":"259 CHEMIN DE SUZON",
+    "Adresse_2":"",
+    "ref_voie":"Suzon (chemin) 241-277 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"259 Rue de Suzon 33400 Talence",
+    "result_score":0.65,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888752",
+    "result_housenumber":"259",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.57534,44.81252 ]
+    },
+    "properties": {
+    "num":4675,
+    "Nom":"ALBERO",
+    "Prenom":"SIMON",
+    "Adresse_1":"259 CHEMIN DE SUZON",
+    "Adresse_2":"",
+    "ref_voie":"Suzon (chemin) 241-277 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"259 Rue de Suzon 33400 Talence",
+    "result_score":0.65,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888752",
+    "result_housenumber":"259",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581078,44.798937 ]
+    },
+    "properties": {
+    "num":373,
+    "Nom":"ALONSO",
+    "Prenom":"M ET MME",
+    "Adresse_1":"1 impasse des acacias",
+    "Adresse_2":"",
+    "ref_voie":"Accacias (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"1 Impasse des Acacias 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276365343",
+    "result_housenumber":"1",
+    "result_name":"Impasse des Acacias",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.576255,44.80215 ]
+    },
+    "properties": {
+    "num":4516,
+    "Nom":"ANDRIANTSIMBAZOVINA",
+    "Prenom":"JOËL",
+    "Adresse_1":"34 rue Bayard",
+    "Adresse_2":"",
+    "ref_voie":"Bayard (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"34 Rue Bayard 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361693",
+    "result_housenumber":"34",
+    "result_name":"Rue Bayard",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590686,44.811047 ]
+    },
+    "properties": {
+    "num":4635,
+    "Nom":"ANTIGNAC",
+    "Prenom":"THIBAUD",
+    "Adresse_1":"St. 20 / Rés. LAUREADES",
+    "Adresse_2":"340, cours de la Libération",
+    "ref_voie":"Libération (cours) 2-412 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"RESIDENCE LAUREADES 33400 Talence",
+    "result_score":0.59,
+    "result_type":"street",
+    "result_id":"33522_XXXX_62af13",
+    "result_housenumber":"",
+    "result_name":"RESIDENCE LAUREADES",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.591916,44.821961 ]
+    },
+    "properties": {
+    "num":4487,
+    "Nom":"ARMELLA",
+    "Prenom":"ALBERT ET DANIELLE",
+    "Adresse_1":"45 rue Léon Say",
+    "Adresse_2":"",
+    "ref_voie":"Say Léon (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"45 Rue Léon Say 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276306552",
+    "result_housenumber":"45",
+    "result_name":"Rue Léon Say",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578147,44.80342 ]
+    },
+    "properties": {
+    "num":66,
+    "Nom":"ARREOU",
+    "Prenom":"GINETTE",
+    "Adresse_1":"21 CHEMIN  bontemps",
+    "Adresse_2":"",
+    "ref_voie":"Bontemps (chemin)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"21 Rue Bontemps 33400 Talence",
+    "result_score":0.64,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276357873",
+    "result_housenumber":"21",
+    "result_name":"Rue Bontemps",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590721,44.810553 ]
+    },
+    "properties": {
+    "num":687,
+    "Nom":"ARTESANO",
+    "Prenom":"M MME",
+    "Adresse_1":"6 CHEMIN DE SUZON",
+    "Adresse_2":"",
+    "ref_voie":"Suzon (chemin) 2-120 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"6 Rue de Suzon 33400 Talence",
+    "result_score":0.63,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276334116",
+    "result_housenumber":"6",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579151,44.800579 ]
+    },
+    "properties": {
+    "num":4914,
+    "Nom":"AUDAUX",
+    "Prenom":"MME",
+    "Adresse_1":"1 RUE GEORGES POMPIDOU",
+    "Adresse_2":"1 RUE GEORGES POMPIDOU",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Georges Pompidou 33400 Talence",
+    "result_score":0.87,
+    "result_type":"street",
+    "result_id":"33522_1252_4b6aad",
+    "result_housenumber":"",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587593,44.810411 ]
+    },
+    "properties": {
+    "num":442,
+    "Nom":"AUDRY",
+    "Prenom":"CÉDRIC",
+    "Adresse_1":"42 chemin de suzon",
+    "Adresse_2":"",
+    "ref_voie":"Suzon (chemin) 2-120 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"42 Rue de Suzon 33400 Talence",
+    "result_score":0.64,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888766",
+    "result_housenumber":"42",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588107,44.792301 ]
+    },
+    "properties": {
+    "num":809,
+    "Nom":"BAGBONON",
+    "Prenom":"ARNAUD",
+    "Adresse_1":"Toulouse Lautrec Henri (rue)",
+    "Adresse_2":"",
+    "ref_voie":"",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Henri de Toulouse Lautrec 33400 Talence",
+    "result_score":0.81,
+    "result_type":"street",
+    "result_id":"33522_XXXX_5b3ecf",
+    "result_housenumber":"",
+    "result_name":"Rue Henri de Toulouse Lautrec",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.595012,44.816591 ]
+    },
+    "properties": {
+    "num":5124,
+    "Nom":"BARRY",
+    "Prenom":"MME",
+    "Adresse_1":"150 rue Roustaing",
+    "Adresse_2":"",
+    "ref_voie":"Roustaing (rue) 28-176 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"150 Rue Roustaing 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276323998",
+    "result_housenumber":"150",
+    "result_name":"Rue Roustaing",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.595439,44.804135 ]
+    },
+    "properties": {
+    "num":358,
+    "Nom":"BASCOU DABAN",
+    "Prenom":"ARLETTE",
+    "Adresse_1":"66 avenue georges clémenceau",
+    "Adresse_2":"",
+    "ref_voie":"Général Clémenceau (avenue) 61-99",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"66 Avenue Georges Clemenceau 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276353995",
+    "result_housenumber":"66",
+    "result_name":"Avenue Georges Clemenceau",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589599,44.792383 ]
+    },
+    "properties": {
+    "num":4886,
+    "Nom":"BASSENTATO",
+    "Prenom":"M",
+    "Adresse_1":"rue Châteaubriand",
+    "Adresse_2":"",
+    "ref_voie":"Châteaubriand (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Chateaubriand 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0563_de1bf0",
+    "result_housenumber":"",
+    "result_name":"Rue Chateaubriand",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589554,44.797118 ]
+    },
+    "properties": {
+    "num":543,
+    "Nom":"BAUDY",
+    "Prenom":"JEAN-CLAUDE",
+    "Adresse_1":"29 rue Charles Gounod",
+    "Adresse_2":"",
+    "ref_voie":"Gounod Charles (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"29 Rue Charles Gounod 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368699",
+    "result_housenumber":"29",
+    "result_name":"Rue Charles Gounod",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.608668,44.813645 ]
+    },
+    "properties": {
+    "num":5135,
+    "Nom":"BEAUGRAND",
+    "Prenom":"M. MME",
+    "Adresse_1":"26 rue Louis Blanc",
+    "Adresse_2":"",
+    "ref_voie":"Blanc Louis (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"26 Rue Louis Blanc 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329799",
+    "result_housenumber":"26",
+    "result_name":"Rue Louis Blanc",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.591594,44.796354 ]
+    },
+    "properties": {
+    "num":5015,
+    "Nom":"BENARD",
+    "Prenom":"CHANTAL",
+    "Adresse_1":"5 RUE ANDRE MESSAGER",
+    "Adresse_2":"",
+    "ref_voie":"Messager André (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"5 Rue André Messager 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276372053",
+    "result_housenumber":"5",
+    "result_name":"Rue André Messager",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.585934,44.816759 ]
+    },
+    "properties": {
+    "num":4564,
+    "Nom":"BERNARD",
+    "Prenom":"GEORGES MARIE-ODILE",
+    "Adresse_1":"125 cours Gambetta",
+    "Adresse_2":"125 cours Gambetta",
+    "ref_voie":"Gambetta (cours) 88-174 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"125 Cours Gambetta 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000311832401",
+    "result_housenumber":"125",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586868,44.821965 ]
+    },
+    "properties": {
+    "num":381,
+    "Nom":"BESSE",
+    "Prenom":"FRANÇOIS",
+    "Adresse_1":"37 rue danton",
+    "Adresse_2":"",
+    "ref_voie":"Danton (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"37 Rue Danton 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276306261",
+    "result_housenumber":"37",
+    "result_name":"Rue Danton",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583286,44.813441 ]
+    },
+    "properties": {
+    "num":129,
+    "Nom":"BIRLICHI",
+    "Prenom":"M ET MME",
+    "Adresse_1":"21 RUE JULES VALLES",
+    "Adresse_2":"",
+    "ref_voie":"Vallès Jules (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"21 Rue Jules Vallès 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276334241",
+    "result_housenumber":"21",
+    "result_name":"Rue Jules Vallès",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58605,44.809871 ]
+    },
+    "properties": {
+    "num":212,
+    "Nom":"BISCARRAT",
+    "Prenom":"DIDIER",
+    "Adresse_1":"98 RUE LAMARTINE",
+    "Adresse_2":"",
+    "ref_voie":"Lamartine (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"98 Rue Lamartine 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276338969",
+    "result_housenumber":"98",
+    "result_name":"Rue Lamartine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.595474,44.796622 ]
+    },
+    "properties": {
+    "num":5173,
+    "Nom":"BLONDELET",
+    "Prenom":"FRANCETTE",
+    "Adresse_1":"25 RUE DU 19 MARS 1962",
+    "Adresse_2":"RES CHATEAUBUAND APPT 1631",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"25 Rue du 19 Mars 1962 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368830",
+    "result_housenumber":"25",
+    "result_name":"Rue du 19 Mars 1962",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.585673,44.805905 ]
+    },
+    "properties": {
+    "num":5174,
+    "Nom":"BOISSET",
+    "Prenom":"CORRINE",
+    "Adresse_1":"91 RUE PEYDAVANT",
+    "Adresse_2":"RES CRESPY  BAT 2 ENT 3 APPT A",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Peydavant 33400 Talence",
+    "result_score":0.83,
+    "result_type":"street",
+    "result_id":"33522_2120_1fe7fb",
+    "result_housenumber":"",
+    "result_name":"Rue Peydavant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592241,44.79589 ]
+    },
+    "properties": {
+    "num":802,
+    "Nom":"BOISSET",
+    "Prenom":"BRUNO",
+    "Adresse_1":"AVENUE DE THOUARS",
+    "Adresse_2":"AVENUE DE THOUARS",
+    "ref_voie":"Braque Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue de Thouars 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_2520_4d37a4",
+    "result_housenumber":"",
+    "result_name":"Avenue de Thouars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.585673,44.805905 ]
+    },
+    "properties": {
+    "num":4880,
+    "Nom":"BOISSET",
+    "Prenom":"NICOLAS",
+    "Adresse_1":"131 RUE PEYDAVANT",
+    "Adresse_2":"131 RUE PEYDAVANT",
+    "ref_voie":"Peydavant (rue) 113-167 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Peydavant 33400 Talence",
+    "result_score":0.81,
+    "result_type":"street",
+    "result_id":"33522_2120_1fe7fb",
+    "result_housenumber":"",
+    "result_name":"Rue Peydavant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587737,44.800681 ]
+    },
+    "properties": {
+    "num":337,
+    "Nom":"BONNEMAISON",
+    "Prenom":"JEAN-FRANÇOIS",
+    "Adresse_1":"68 rue gal margureritte",
+    "Adresse_2":"",
+    "ref_voie":"Général Marguerites (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"68 Rue du Général Marguerite 33400 Talence",
+    "result_score":0.66,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361915",
+    "result_housenumber":"68",
+    "result_name":"Rue du Général Marguerite",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592302,44.794708 ]
+    },
+    "properties": {
+    "num":190,
+    "Nom":"BONNIN",
+    "Prenom":"NATHALIE",
+    "Adresse_1":"194 AVENUE DE THOUARS",
+    "Adresse_2":"194 AVENUE DE THOUARS",
+    "ref_voie":"Thouars (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"194 Avenue de Thouars 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276374951",
+    "result_housenumber":"194",
+    "result_name":"Avenue de Thouars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.577347,44.802417 ]
+    },
+    "properties": {
+    "num":632,
+    "Nom":"BOURDIN",
+    "Prenom":"ANNIE",
+    "Adresse_1":"18 rue Bayard",
+    "Adresse_2":"",
+    "ref_voie":"Bayard (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"18 Rue Bayard 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361710",
+    "result_housenumber":"18",
+    "result_name":"Rue Bayard",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58284,44.818573 ]
+    },
+    "properties": {
+    "num":305,
+    "Nom":"BOURDON",
+    "Prenom":"CORINNE",
+    "Adresse_1":"61 rue bourbaki",
+    "Adresse_2":"61 rue bourbaki",
+    "ref_voie":"Bourbaki (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"61 Rue Bourbaki 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888789",
+    "result_housenumber":"61",
+    "result_name":"Rue Bourbaki",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584596,44.813591 ]
+    },
+    "properties": {
+    "num":5176,
+    "Nom":"BOUTARRAHA",
+    "Prenom":"ABDELLAH",
+    "Adresse_1":"3 RUE PAUL VALERY",
+    "Adresse_2":"33150 CENON",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"3 Rue Jules Vallès 33400 Talence",
+    "result_score":0.57,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329297",
+    "result_housenumber":"3",
+    "result_name":"Rue Jules Vallès",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592613,44.797454 ]
+    },
+    "properties": {
+    "num":5175,
+    "Nom":"BOUYE",
+    "Prenom":"SOPHIE",
+    "Adresse_1":"27 RUE CALIXTE CAMELLE",
+    "Adresse_2":"",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"27 Rue Calixte Camelle 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368817",
+    "result_housenumber":"27",
+    "result_name":"Rue Calixte Camelle",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.60043,44.815043 ]
+    },
+    "properties": {
+    "num":394,
+    "Nom":"BOYER",
+    "Prenom":"PIERRE",
+    "Adresse_1":"86 avenue vieille tour",
+    "Adresse_2":"",
+    "ref_voie":"Vieille Tour (avenue) 2-130 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"86 Avenue de la Vieille Tour 33400 Talence",
+    "result_score":0.79,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276324147",
+    "result_housenumber":"86",
+    "result_name":"Avenue de la Vieille Tour",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.594027,44.800052 ]
+    },
+    "properties": {
+    "num":202,
+    "Nom":"BRINDEAUX",
+    "Prenom":"M MME JULIEN",
+    "Adresse_1":"9 ALLEE DES PEUPLIERS",
+    "Adresse_2":"",
+    "ref_voie":"Peupliers (allée)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"9 Allée des Peupliers 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276365665",
+    "result_housenumber":"9",
+    "result_name":"Allée des Peupliers",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.599191,44.816491 ]
+    },
+    "properties": {
+    "num":5128,
+    "Nom":"BRINGAUD",
+    "Prenom":"M. MME",
+    "Adresse_1":"21 rue Vieille Tour",
+    "Adresse_2":"",
+    "ref_voie":"Vieille Tour (avenue) 1-119 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Impasse Vieille Tour 33400 Talence",
+    "result_score":0.66,
+    "result_type":"street",
+    "result_id":"33522_2609_9d5932",
+    "result_housenumber":"",
+    "result_name":"Impasse Vieille Tour",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583745,44.806206 ]
+    },
+    "properties": {
+    "num":4696,
+    "Nom":"BRITTELLI",
+    "Prenom":"RAPHAEL",
+    "Adresse_1":"50 RUE JOUIS",
+    "Adresse_2":"50 RUE JOUIS",
+    "ref_voie":"Jouis (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"50 Rue Jouis 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276348787",
+    "result_housenumber":"50",
+    "result_name":"Rue Jouis",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.598836,44.798303 ]
+    },
+    "properties": {
+    "num":4679,
+    "Nom":"BRUNET",
+    "Prenom":"GREGORY",
+    "Adresse_1":"rue marivaux",
+    "Adresse_2":"rue marivaux",
+    "ref_voie":"Marivaux (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Marivaux 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1805_49eab5",
+    "result_housenumber":"",
+    "result_name":"Rue Marivaux",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588644,44.811615 ]
+    },
+    "properties": {
+    "num":4922,
+    "Nom":"CAMBOU",
+    "Prenom":"SYLVIE",
+    "Adresse_1":"20 RUE PIERRE CURIE",
+    "Adresse_2":"20 RUE PIERRE CURIE",
+    "ref_voie":"Curie Pierre (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"20 0 Rue Pierre Curie 33400 Talence",
+    "result_score":0.87,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000312935334",
+    "result_housenumber":"20 0",
+    "result_name":"Rue Pierre Curie",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.593645,44.806302 ]
+    },
+    "properties": {
+    "num":4536,
+    "Nom":"CAMPAS",
+    "Prenom":"ANNICK",
+    "Adresse_1":"3 impasse roul",
+    "Adresse_2":"Rés. Goya n°3",
+    "ref_voie":"Roul (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"3 Impasse Roul 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000312935377",
+    "result_housenumber":"3",
+    "result_name":"Impasse Roul",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584139,44.802793 ]
+    },
+    "properties": {
+    "num":344,
+    "Nom":"CAMPION",
+    "Prenom":"MICHELE",
+    "Adresse_1":"33 rue lafontaine",
+    "Adresse_2":"",
+    "ref_voie":"Lafontaine (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"33 Rue Lafontaine 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358069",
+    "result_housenumber":"33",
+    "result_name":"Rue Lafontaine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588911,44.798206 ]
+    },
+    "properties": {
+    "num":282,
+    "Nom":"CANTORNE",
+    "Prenom":"MME",
+    "Adresse_1":"28 rue aldona",
+    "Adresse_2":"",
+    "ref_voie":"Aldona (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"28 Rue Aldona 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368677",
+    "result_housenumber":"28",
+    "result_name":"Rue Aldona",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596354,44.796708 ]
+    },
+    "properties": {
+    "num":4869,
+    "Nom":"CAPBLANCQ",
+    "Prenom":"EMILINE",
+    "Adresse_1":"rue Rabelais François",
+    "Adresse_2":"",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue François Rabelais 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1085_aa3820",
+    "result_housenumber":"",
+    "result_name":"Rue François Rabelais",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584977,44.809293 ]
+    },
+    "properties": {
+    "num":4641,
+    "Nom":"CARRICABURU",
+    "Prenom":"GUILLAUME",
+    "Adresse_1":"34 RUE PEYDAVANT",
+    "Adresse_2":"34 RUE PEYDAVANT",
+    "ref_voie":"Peydavant (rue) 2-46 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"34 Rue Peydavant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276343668",
+    "result_housenumber":"34",
+    "result_name":"Rue Peydavant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578723,44.801995 ]
+    },
+    "properties": {
+    "num":4916,
+    "Nom":"CARRUESCO",
+    "Prenom":"GENEVIÈVE",
+    "Adresse_1":"7 RUE GEORGES POMPIDOU",
+    "Adresse_2":"7 RUE GEORGES POMPIDOU",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"7 Rue Georges Pompidou 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361720",
+    "result_housenumber":"7",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586589,44.789655 ]
+    },
+    "properties": {
+    "num":5001,
+    "Nom":"CARSUZAA",
+    "Prenom":"FRANCIS",
+    "Adresse_1":"Rue odilon Redon",
+    "Adresse_2":"Rue odilon Redon",
+    "ref_voie":"Thiers Adolphe (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Odilon Redon 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_XXXX_57751e",
+    "result_housenumber":"",
+    "result_name":"Rue Odilon Redon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584174,44.803041 ]
+    },
+    "properties": {
+    "num":197,
+    "Nom":"CASTAING",
+    "Prenom":"SERGE ET ANNE MARIE",
+    "Adresse_1":"26 RUE CONDORCET",
+    "Adresse_2":"",
+    "ref_voie":"Condorcet (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"26 Rue Condorcet 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358048",
+    "result_housenumber":"26",
+    "result_name":"Rue Condorcet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.594682,44.817616 ]
+    },
+    "properties": {
+    "num":4672,
+    "Nom":"CAZES",
+    "Prenom":"NICOLAS",
+    "Adresse_1":"74 RUE FERNAND IZER",
+    "Adresse_2":"RES LE HAMEAU DE LA TOUR C 48",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"74 Rue Fernand Izer 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000312935267",
+    "result_housenumber":"74",
+    "result_name":"Rue Fernand Izer",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589408,44.79711 ]
+    },
+    "properties": {
+    "num":698,
+    "Nom":"CHADEBOST",
+    "Prenom":"JACQUELINE",
+    "Adresse_1":"31 rue charles gounod",
+    "Adresse_2":"",
+    "ref_voie":"Gounod Charles (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"31 Rue Charles Gounod 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368701",
+    "result_housenumber":"31",
+    "result_name":"Rue Charles Gounod",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589408,44.79711 ]
+    },
+    "properties": {
+    "num":699,
+    "Nom":"CHADEBOST",
+    "Prenom":"CHRISTIAN",
+    "Adresse_1":"31 RUE CHARLES GOUNOD",
+    "Adresse_2":"",
+    "ref_voie":"Gounod Charles (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"31 Rue Charles Gounod 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368701",
+    "result_housenumber":"31",
+    "result_name":"Rue Charles Gounod",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583085,44.804986 ]
+    },
+    "properties": {
+    "num":4768,
+    "Nom":"CHATENET",
+    "Prenom":"GAETAN",
+    "Adresse_1":"160 RUE FREDERIC SEVENE",
+    "Adresse_2":"160 RUE FREDERIC SEVENE",
+    "ref_voie":"Sévène Frédéric (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"160 Rue Frédéric Sevene 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276353742",
+    "result_housenumber":"160",
+    "result_name":"Rue Frédéric Sevene",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583167,44.802797 ]
+    },
+    "properties": {
+    "num":5178,
+    "Nom":"CHEMMACHE",
+    "Prenom":"SOFIANE",
+    "Adresse_1":"RUE BLUMEREL",
+    "Adresse_2":"RES MONTAIGNE ENT C APPT 21",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Blumerel 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_XXXX_b4d891",
+    "result_housenumber":"",
+    "result_name":"Rue Blumerel",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581483,44.794588 ]
+    },
+    "properties": {
+    "num":5019,
+    "Nom":"CHEVALLIER",
+    "Prenom":"CHRISTOPHE",
+    "Adresse_1":"40 RUE HENRY DE MONTHERLANT",
+    "Adresse_2":"40 RUE HENRY DE MONTHERLANT",
+    "ref_voie":"De Montherlant Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"40 Rue Henry de Montherlant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276374790",
+    "result_housenumber":"40",
+    "result_name":"Rue Henry de Montherlant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579151,44.800579 ]
+    },
+    "properties": {
+    "num":5032,
+    "Nom":"CHEVILLARD",
+    "Prenom":"FERNANDE",
+    "Adresse_1":"1 RUE GEORGES POMPIDOU",
+    "Adresse_2":"1 RUE GEORGES POMPIDOU",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Georges Pompidou 33400 Talence",
+    "result_score":0.87,
+    "result_type":"street",
+    "result_id":"33522_1252_4b6aad",
+    "result_housenumber":"",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592302,44.794708 ]
+    },
+    "properties": {
+    "num":4674,
+    "Nom":"CHINE",
+    "Prenom":"RACHID",
+    "Adresse_1":"194 AVENUE DE THOUARS",
+    "Adresse_2":"RES DOMAINE DU PLESSIS APT 34",
+    "ref_voie":"Braque Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"194 Avenue de Thouars 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276374951",
+    "result_housenumber":"194",
+    "result_name":"Avenue de Thouars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583443,44.797308 ]
+    },
+    "properties": {
+    "num":4680,
+    "Nom":"COCQUELIN",
+    "Prenom":"MARCELLE",
+    "Adresse_1":"16 chemin de benedigues",
+    "Adresse_2":"16 chemin de benedigues",
+    "ref_voie":"Bénédigue (chemin)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"16 Chemin de Benedigue 33400 Talence",
+    "result_score":0.85,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000312935520",
+    "result_housenumber":"16",
+    "result_name":"Chemin de Benedigue",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.576665,44.816648 ]
+    },
+    "properties": {
+    "num":4878,
+    "Nom":"COLDEFY",
+    "Prenom":"MATHIEU",
+    "Adresse_1":"135 RUE JEAN JAURES",
+    "Adresse_2":"",
+    "ref_voie":"Jaurés Jean (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"135 Rue Jean Jaurès 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276323251",
+    "result_housenumber":"135",
+    "result_name":"Rue Jean Jaurès",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583012,44.811855 ]
+    },
+    "properties": {
+    "num":310,
+    "Nom":"COMA",
+    "Prenom":"DANIEL",
+    "Adresse_1":"159 CHEMIN DE SUZON",
+    "Adresse_2":"159 CHEMIN DE SUZON",
+    "ref_voie":"Pacaris (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"159 Rue de Suzon 33400 Talence",
+    "result_score":0.65,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888736",
+    "result_housenumber":"159",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.5839,44.813014 ]
+    },
+    "properties": {
+    "num":130,
+    "Nom":"COUSIN",
+    "Prenom":"DANIEL",
+    "Adresse_1":"23 RUE BLANQUI",
+    "Adresse_2":"",
+    "ref_voie":"Blanqui (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"23 Rue Blanqui 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276334235",
+    "result_housenumber":"23",
+    "result_name":"Rue Blanqui",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579557,44.806948 ]
+    },
+    "properties": {
+    "num":4492,
+    "Nom":"CRIGNON",
+    "Prenom":"PIERRE",
+    "Adresse_1":"15 petit chemin d'ars",
+    "Adresse_2":"",
+    "ref_voie":"Ars (petit chemin)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"15 Petit Chemin d'Ars 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276348652",
+    "result_housenumber":"15",
+    "result_name":"Petit Chemin d'Ars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584181,44.805383 ]
+    },
+    "properties": {
+    "num":321,
+    "Nom":"CUBEL",
+    "Prenom":"PATRICK",
+    "Adresse_1":"136 RUE FREDERIC SEVENE",
+    "Adresse_2":"",
+    "ref_voie":"Roustaing (rue) 43-165 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"136 Rue Frédéric Sevene 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276353731",
+    "result_housenumber":"136",
+    "result_name":"Rue Frédéric Sevene",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583876,44.819711 ]
+    },
+    "properties": {
+    "num":651,
+    "Nom":"CUNIN",
+    "Prenom":"PIERRETTE",
+    "Adresse_1":"46 cours Gambetta",
+    "Adresse_2":"",
+    "ref_voie":"Gambetta (cours) 2-86 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"46 Cours Gambetta 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312049",
+    "result_housenumber":"46",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581474,44.795615 ]
+    },
+    "properties": {
+    "num":44,
+    "Nom":"DASPAS",
+    "Prenom":"MARIE",
+    "Adresse_1":"RUE HENRY DE MONTHERLANT",
+    "Adresse_2":"RUE HENRY DE MONTHERLANT",
+    "ref_voie":"De Montherlant Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Henry de Montherlant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1365_bfdb85",
+    "result_housenumber":"",
+    "result_name":"Rue Henry de Montherlant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581474,44.795615 ]
+    },
+    "properties": {
+    "num":54,
+    "Nom":"DASPAS",
+    "Prenom":"ANDRÉ",
+    "Adresse_1":"RUE HENRY DE MONTHERLANT",
+    "Adresse_2":"RUE HENRY DE MONTHERLANT",
+    "ref_voie":"De Montherlant Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Henry de Montherlant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1365_bfdb85",
+    "result_housenumber":"",
+    "result_name":"Rue Henry de Montherlant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.599046,44.798187 ]
+    },
+    "properties": {
+    "num":4939,
+    "Nom":"DEBANNE",
+    "Prenom":"AUGUSTE HENRI",
+    "Adresse_1":"4 RUE MARIVAUX",
+    "Adresse_2":"4 RUE MARIVAUX",
+    "ref_voie":"Marivaux (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"4 Rue Marivaux 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276365739",
+    "result_housenumber":"4",
+    "result_name":"Rue Marivaux",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587615,44.824177 ]
+    },
+    "properties": {
+    "num":684,
+    "Nom":"DEBOT",
+    "Prenom":"PIERRE",
+    "Adresse_1":"103 BOULEVARD Georges V",
+    "Adresse_2":"",
+    "ref_voie":"Georges V (boulevard) 93-185 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"103 Boulevard George V 33400 Talence",
+    "result_score":0.85,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276301298",
+    "result_housenumber":"103",
+    "result_name":"Boulevard George V",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.580817,44.801322 ]
+    },
+    "properties": {
+    "num":4568,
+    "Nom":"DEFRANCHI",
+    "Prenom":"VÉRONIQUE",
+    "Adresse_1":"1 rue des anciens combattants d'Afrique du Nord",
+    "Adresse_2":"",
+    "ref_voie":"Anciens Combattants AFN (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"1 Rue des Anciens Combattants d'Afrique du Nord 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361747",
+    "result_housenumber":"1",
+    "result_name":"Rue des Anciens Combattants d'Afrique du Nord",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586676,44.808256 ]
+    },
+    "properties": {
+    "num":464,
+    "Nom":"DEJEAN",
+    "Prenom":"SOLANGE",
+    "Adresse_1":"11 bis rue ambroise paré",
+    "Adresse_2":"",
+    "ref_voie":"Paré Ambroise (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"11 BIS Rue Ambroise Paré 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276343698",
+    "result_housenumber":"11 BIS",
+    "result_name":"Rue Ambroise Paré",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583012,44.811855 ]
+    },
+    "properties": {
+    "num":4961,
+    "Nom":"DELAS",
+    "Prenom":"YVES",
+    "Adresse_1":"159 RUE DE SUZON",
+    "Adresse_2":"159 RUE DE SUZON",
+    "ref_voie":"Suzon (chemin) 123-239 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"159 Rue de Suzon 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888736",
+    "result_housenumber":"159",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586071,44.817083 ]
+    },
+    "properties": {
+    "num":37,
+    "Nom":"DELORGE",
+    "Prenom":"VINCENT",
+    "Adresse_1":"222 cours gambetta",
+    "Adresse_2":"",
+    "ref_voie":"Gambetta (cours) 176-264 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Cours Gambetta 33400 Talence",
+    "result_score":0.81,
+    "result_type":"street",
+    "result_id":"33522_1150_718ffb",
+    "result_housenumber":"",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588127,44.819645 ]
+    },
+    "properties": {
+    "num":5073,
+    "Nom":"DEMEY",
+    "Prenom":"ANNICK",
+    "Adresse_1":"26 rue raoul voignier",
+    "Adresse_2":"26 rue raoul voignier",
+    "ref_voie":"Voignier Raoul (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"26 Rue Raoul Voigner 33400 Talence",
+    "result_score":0.85,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312281",
+    "result_housenumber":"26",
+    "result_name":"Rue Raoul Voigner",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596354,44.796708 ]
+    },
+    "properties": {
+    "num":4936,
+    "Nom":"DESPLAT",
+    "Prenom":"DANIEL",
+    "Adresse_1":"rue francois rabelais",
+    "Adresse_2":"rue francois rabelais",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue François Rabelais 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1085_aa3820",
+    "result_housenumber":"",
+    "result_name":"Rue François Rabelais",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586641,44.794014 ]
+    },
+    "properties": {
+    "num":1503,
+    "Nom":"DI MAGGIO",
+    "Prenom":"ODILE",
+    "Adresse_1":"RUE FRANCOIS BOUCHER",
+    "Adresse_2":"RUE FRANCOIS BOUCHER",
+    "ref_voie":"Boucher François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue François Boucher 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_XXXX_fd8111",
+    "result_housenumber":"",
+    "result_name":"Rue François Boucher",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.606084,44.79908 ]
+    },
+    "properties": {
+    "num":280,
+    "Nom":"DOMBLIDES",
+    "Prenom":"PIERRE ET GISÈLE",
+    "Adresse_1":"45 rue debussy",
+    "Adresse_2":"",
+    "ref_voie":"Debussy (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"45 Rue Debussy 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276365808",
+    "result_housenumber":"45",
+    "result_name":"Rue Debussy",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.597034,44.80346 ]
+    },
+    "properties": {
+    "num":375,
+    "Nom":"DUHART",
+    "Prenom":"ALAIN",
+    "Adresse_1":"98 Bavenue général clémenceau",
+    "Adresse_2":"",
+    "ref_voie":"Général Clémenceau (avenue) 61-99",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"98 Avenue Georges Clemenceau 33400 Talence",
+    "result_score":0.65,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000311832416",
+    "result_housenumber":"98",
+    "result_name":"Avenue Georges Clemenceau",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587922,44.814835 ]
+    },
+    "properties": {
+    "num":1657,
+    "Nom":"DUPUY",
+    "Prenom":"JEANNE",
+    "Adresse_1":"185 CRS GAMBETTA",
+    "Adresse_2":"RES LE MADRIGAL    APT 185",
+    "ref_voie":"Gambetta (cours) 93-265 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"185 Cours Gambetta 33400 Talence",
+    "result_score":0.81,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329360",
+    "result_housenumber":"185",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.602332,44.795458 ]
+    },
+    "properties": {
+    "num":4630,
+    "Nom":"ESCANDE-MUS",
+    "Prenom":"MAGUELONE",
+    "Adresse_1":"11 rue Rémy Belleau",
+    "Adresse_2":"11 rue Rémy Belleau",
+    "ref_voie":"Belleau Rémi (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"11 Rue Rémi Belleau 33400 Talence",
+    "result_score":0.81,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276372097",
+    "result_housenumber":"11",
+    "result_name":"Rue Rémi Belleau",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589314,44.820471 ]
+    },
+    "properties": {
+    "num":472,
+    "Nom":"ESCOURROU",
+    "Prenom":"DOMINIQUE",
+    "Adresse_1":"130 rue du XIV juillet",
+    "Adresse_2":"",
+    "ref_voie":"Quatorze Juillet (rue) 1-161 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"130 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.76,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312413",
+    "result_housenumber":"130",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587041,44.819747 ]
+    },
+    "properties": {
+    "num":4844,
+    "Nom":"EYRAUD",
+    "Prenom":"GEORGES",
+    "Adresse_1":"36 RUE EUGENE OLIBET",
+    "Adresse_2":"",
+    "ref_voie":"Olibet Eugène (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"36 Rue Eugène Olibet 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312174",
+    "result_housenumber":"36",
+    "result_name":"Rue Eugène Olibet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596354,44.796708 ]
+    },
+    "properties": {
+    "num":4468,
+    "Nom":"FARGUES",
+    "Prenom":"FRÉDÉRIC",
+    "Adresse_1":"RUE FRANçois rabelais",
+    "Adresse_2":"RUE FRANçois rabelais",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue François Rabelais 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1085_aa3820",
+    "result_housenumber":"",
+    "result_name":"Rue François Rabelais",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589088,44.811078 ]
+    },
+    "properties": {
+    "num":4463,
+    "Nom":"GAUTHIER",
+    "Prenom":"VINCENT",
+    "Adresse_1":"rue pierre curie",
+    "Adresse_2":"Rés Victor Scholcher  -apt 233",
+    "ref_voie":"Curie Pierre (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Pierre Curie 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_2140_c2fabf",
+    "result_housenumber":"",
+    "result_name":"Rue Pierre Curie",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583477,44.794085 ]
+    },
+    "properties": {
+    "num":5179,
+    "Nom":"GOIRRAND",
+    "Prenom":"HOURIA",
+    "Adresse_1":"AVENUE JEAN RACINE",
+    "Adresse_2":"RES MONSEGUR BAT E APPT 43",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Jean Racine 33400 Talence",
+    "result_score":0.78,
+    "result_type":"street",
+    "result_id":"33522_1445_efd4f4",
+    "result_housenumber":"",
+    "result_name":"Rue Jean Racine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579151,44.800579 ]
+    },
+    "properties": {
+    "num":5180,
+    "Nom":"GONZALEZ",
+    "Prenom":"JACQUELINE",
+    "Adresse_1":"RUE GEORGES POMPIDOU",
+    "Adresse_2":"RES SAINT HUBERT N_4 APPT 40",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Georges Pompidou 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1252_4b6aad",
+    "result_housenumber":"",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.602216,44.815156 ]
+    },
+    "properties": {
+    "num":397,
+    "Nom":"GUERIN",
+    "Prenom":"CLAUDE",
+    "Adresse_1":"23 rue denis papin",
+    "Adresse_2":"",
+    "ref_voie":"Papin Denis (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"23 Rue Denis Papin 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276324161",
+    "result_housenumber":"23",
+    "result_name":"Rue Denis Papin",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590152,44.822322 ]
+    },
+    "properties": {
+    "num":5096,
+    "Nom":"GUERRA NEDELEC",
+    "Prenom":"SYLVIE",
+    "Adresse_1":"59 RUE EMILE ZOLA",
+    "Adresse_2":"",
+    "ref_voie":"ZoLa emile (place)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"59 Rue Émile Zola 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888929",
+    "result_housenumber":"59",
+    "result_name":"Rue Émile Zola",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589906,44.791493 ]
+    },
+    "properties": {
+    "num":355,
+    "Nom":"HAVY",
+    "Prenom":"HANIA",
+    "Adresse_1":"rue Ingres Dominique",
+    "Adresse_2":"",
+    "ref_voie":"Ingres Dominique (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Dominique Ingres 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_XXXX_2130f3",
+    "result_housenumber":"",
+    "result_name":"Rue Dominique Ingres",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589729,44.820405 ]
+    },
+    "properties": {
+    "num":4903,
+    "Nom":"HENNI",
+    "Prenom":"MICHEL",
+    "Adresse_1":"140 RUE DU QUATORZE JUILLET",
+    "Adresse_2":"",
+    "ref_voie":"Quatorze Juillet (rue) 2-164 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"140 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.68,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312418",
+    "result_housenumber":"140",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589729,44.820405 ]
+    },
+    "properties": {
+    "num":4902,
+    "Nom":"HUREAUX",
+    "Prenom":"YVETTE",
+    "Adresse_1":"140 RUE DU QUATORZE JUILLET",
+    "Adresse_2":"",
+    "ref_voie":"Quatorze Juillet (rue) 2-164 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"140 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.68,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312418",
+    "result_housenumber":"140",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579737,44.80091 ]
+    },
+    "properties": {
+    "num":4617,
+    "Nom":"JEAN",
+    "Prenom":"NATHANAEL",
+    "Adresse_1":"impasse Bel Air",
+    "Adresse_2":"",
+    "ref_voie":"Bel Air (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Impasse Bel-Air 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0286_a71c73",
+    "result_housenumber":"",
+    "result_name":"Impasse Bel-Air",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579652,44.800863 ]
+    },
+    "properties": {
+    "num":4620,
+    "Nom":"JEAN",
+    "Prenom":"EMMANUEL",
+    "Adresse_1":"8 impasse Bel air",
+    "Adresse_2":"",
+    "ref_voie":"Bel Air (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"8 Impasse Bel-Air 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361716",
+    "result_housenumber":"8",
+    "result_name":"Impasse Bel-Air",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578492,44.797748 ]
+    },
+    "properties": {
+    "num":4731,
+    "Nom":"KOSTINE",
+    "Prenom":"MICHÈLE",
+    "Adresse_1":"181 chemin de leysotte",
+    "Adresse_2":"",
+    "ref_voie":"leysotte (rue) 99-fin",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"181 Chemin de Leysotte 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368467",
+    "result_housenumber":"181",
+    "result_name":"Chemin de Leysotte",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592302,44.794708 ]
+    },
+    "properties": {
+    "num":26,
+    "Nom":"LABARTHE",
+    "Prenom":"BENOIT",
+    "Adresse_1":"194 AVENUE DE THOUARS",
+    "Adresse_2":"194 AVENUE DE THOUARS",
+    "ref_voie":"Thouars (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"194 Avenue de Thouars 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276374951",
+    "result_housenumber":"194",
+    "result_name":"Avenue de Thouars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590527,44.805075 ]
+    },
+    "properties": {
+    "num":5181,
+    "Nom":"LAFAYE",
+    "Prenom":"JEANICK",
+    "Adresse_1":"RUE GEORGES LASSERRRE",
+    "Adresse_2":"RES CRESPY 2 BAT 4 APPT 164",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue Georges Lasserre 33400 Talence",
+    "result_score":0.78,
+    "result_type":"street",
+    "result_id":"33522_1285_93b8fb",
+    "result_housenumber":"",
+    "result_name":"Avenue Georges Lasserre",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58019,44.818738 ]
+    },
+    "properties": {
+    "num":5002,
+    "Nom":"LAFOURCADE",
+    "Prenom":"LILIANE",
+    "Adresse_1":"3 RUE JULES FERRY",
+    "Adresse_2":"",
+    "ref_voie":"Ferry Jules (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"3 Rue Jules Ferry 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276318066",
+    "result_housenumber":"3",
+    "result_name":"Rue Jules Ferry",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592664,44.820593 ]
+    },
+    "properties": {
+    "num":678,
+    "Nom":"LAGARDE",
+    "Prenom":"SYLVIANE",
+    "Adresse_1":"214 RUE DU QUATORZE JUILLET",
+    "Adresse_2":"",
+    "ref_voie":"Pascal Blaise (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"214 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.68,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312611",
+    "result_housenumber":"214",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592664,44.820593 ]
+    },
+    "properties": {
+    "num":4904,
+    "Nom":"LAGARDE",
+    "Prenom":"GILBERT",
+    "Adresse_1":"214 RUE DU 14 JUILLET",
+    "Adresse_2":"",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"214 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312611",
+    "result_housenumber":"214",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578723,44.801995 ]
+    },
+    "properties": {
+    "num":4471,
+    "Nom":"LAGUE LAPEYRE",
+    "Prenom":"ROBERT",
+    "Adresse_1":"7 RUE GEORGES POMPIDOU",
+    "Adresse_2":"7 RUE GEORGES POMPIDOU",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"7 Rue Georges Pompidou 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276361720",
+    "result_housenumber":"7",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.602115,44.794984 ]
+    },
+    "properties": {
+    "num":5182,
+    "Nom":"LAHAIE",
+    "Prenom":"JEAN PIERRE",
+    "Adresse_1":"JEAN MONEY",
+    "Adresse_2":"",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"RESIDENCE JEAN MONNET 33400 Talence",
+    "result_score":0.53,
+    "result_type":"street",
+    "result_id":"33522_XXXX_f019f6",
+    "result_housenumber":"",
+    "result_name":"RESIDENCE JEAN MONNET",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583165,44.813502 ]
+    },
+    "properties": {
+    "num":642,
+    "Nom":"LAJAUNIAS",
+    "Prenom":"RENÉ ET NICOLE",
+    "Adresse_1":"54 rue jules valles",
+    "Adresse_2":"",
+    "ref_voie":"Vallès Jules (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"54 Rue Jules Vallès 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329323",
+    "result_housenumber":"54",
+    "result_name":"Rue Jules Vallès",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596517,44.815021 ]
+    },
+    "properties": {
+    "num":118,
+    "Nom":"LAMOTHE",
+    "Prenom":"ANDRÉ (MONIQUE)",
+    "Adresse_1":"134 rue de la médoquine",
+    "Adresse_2":"",
+    "ref_voie":"Médoquine (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"134 Rue de la Medoquine 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276324058",
+    "result_housenumber":"134",
+    "result_name":"Rue de la Medoquine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584533,44.803163 ]
+    },
+    "properties": {
+    "num":225,
+    "Nom":"LAMOUROUT",
+    "Prenom":"RAYMOND",
+    "Adresse_1":"18 RUE CONDORCET",
+    "Adresse_2":"",
+    "ref_voie":"Condorcet (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"18 Rue Condorcet 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358044",
+    "result_housenumber":"18",
+    "result_name":"Rue Condorcet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581474,44.795615 ]
+    },
+    "properties": {
+    "num":4615,
+    "Nom":"LARNAUDIE",
+    "Prenom":"EDOUARD",
+    "Adresse_1":"RUE HENRY DE MONTHERLANT",
+    "Adresse_2":"RUE HENRY DE MONTHERLANT",
+    "ref_voie":"De Montherlant Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Henry de Montherlant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1365_bfdb85",
+    "result_housenumber":"",
+    "result_name":"Rue Henry de Montherlant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592667,44.820742 ]
+    },
+    "properties": {
+    "num":587,
+    "Nom":"LARROUX",
+    "Prenom":"RENÉ",
+    "Adresse_1":"211 rue du XIV Juillet",
+    "Adresse_2":"",
+    "ref_voie":"Quatorze Juillet (rue) 163-251 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"211 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.76,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276306571",
+    "result_housenumber":"211",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586093,44.811929 ]
+    },
+    "properties": {
+    "num":631,
+    "Nom":"LAURENT",
+    "Prenom":"PAUL",
+    "Adresse_1":"64 rue Lamartine",
+    "Adresse_2":"Les Harmonies ; Bât D",
+    "ref_voie":"Lamartine (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"64 Rue Lamartine 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276334276",
+    "result_housenumber":"64",
+    "result_name":"Rue Lamartine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.59033,44.816295 ]
+    },
+    "properties": {
+    "num":633,
+    "Nom":"LAURENT",
+    "Prenom":"HÉLÈNE",
+    "Adresse_1":"35 rue des Epoux Lesgourgues",
+    "Adresse_2":"",
+    "ref_voie":"Epoux Lesgourgues (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"35 Rue des Époux Lesgourgues 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276323755",
+    "result_housenumber":"35",
+    "result_name":"Rue des Époux Lesgourgues",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590527,44.805075 ]
+    },
+    "properties": {
+    "num":4629,
+    "Nom":"LAURENT",
+    "Prenom":"SYLVAIN",
+    "Adresse_1":"18 rue Georges Lasserre",
+    "Adresse_2":"18 rue Georges Lasserre",
+    "ref_voie":"Lasserre Georges (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue Georges Lasserre 33400 Talence",
+    "result_score":0.74,
+    "result_type":"street",
+    "result_id":"33522_1285_93b8fb",
+    "result_housenumber":"",
+    "result_name":"Avenue Georges Lasserre",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581474,44.795615 ]
+    },
+    "properties": {
+    "num":4812,
+    "Nom":"LAURENT",
+    "Prenom":"VIRGINIE",
+    "Adresse_1":"RUE HENRY DE MONTHERLANT",
+    "Adresse_2":"RUE HENRY DE MONTHERLANT",
+    "ref_voie":"De Montherlant Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Henry de Montherlant 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1365_bfdb85",
+    "result_housenumber":"",
+    "result_name":"Rue Henry de Montherlant",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588963,44.813928 ]
+    },
+    "properties": {
+    "num":53,
+    "Nom":"LECAROZ",
+    "Prenom":"PIERRE",
+    "Adresse_1":"224 COURS GAMBETTA",
+    "Adresse_2":"",
+    "ref_voie":"Gambetta (cours) 176-264 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"224 Cours Gambetta 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329451",
+    "result_housenumber":"224",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579151,44.800579 ]
+    },
+    "properties": {
+    "num":466,
+    "Nom":"LETAMENDIA",
+    "Prenom":"MYRIAM",
+    "Adresse_1":"rue georges pompidou",
+    "Adresse_2":"rue georges pompidou",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Georges Pompidou 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1252_4b6aad",
+    "result_housenumber":"",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.59174,44.814007 ]
+    },
+    "properties": {
+    "num":4759,
+    "Nom":"LOURENCO",
+    "Prenom":"FRANCIS",
+    "Adresse_1":"81 RUE PIERRE RENAUDEL",
+    "Adresse_2":"",
+    "ref_voie":"Renaudel Pierre (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"81 Rue Pierre Renaudel 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329600",
+    "result_housenumber":"81",
+    "result_name":"Rue Pierre Renaudel",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.575169,44.812531 ]
+    },
+    "properties": {
+    "num":596,
+    "Nom":"LUCCANTONI",
+    "Prenom":"MADELEINE",
+    "Adresse_1":"236 Chemin de Suzon",
+    "Adresse_2":"Rés. Le Voltaire ; Appt. 89C",
+    "ref_voie":"Suzon (chemin) 164-282 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"236 Rue de Suzon 33400 Talence",
+    "result_score":0.65,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276333993",
+    "result_housenumber":"236",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586448,44.796924 ]
+    },
+    "properties": {
+    "num":708,
+    "Nom":"LUSSAC",
+    "Prenom":"MARIE-LOUISE",
+    "Adresse_1":"73 RUE CHARLES GOUNOD",
+    "Adresse_2":"",
+    "ref_voie":"Gounod Charles (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"73 Rue Charles Gounod 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368633",
+    "result_housenumber":"73",
+    "result_name":"Rue Charles Gounod",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58194,44.820522 ]
+    },
+    "properties": {
+    "num":4751,
+    "Nom":"MALEYRE",
+    "Prenom":"CLAUDE",
+    "Adresse_1":"17 BOULEVARD FRANKLIN ROOSEVELT",
+    "Adresse_2":"",
+    "ref_voie":"Président Franklin Roosevelt (boulevard)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"17 Boulevard du Président Franklin Roosevelt 33400 Talence",
+    "result_score":0.71,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000311832182",
+    "result_housenumber":"17",
+    "result_name":"Boulevard du Président Franklin Roosevelt",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58194,44.820522 ]
+    },
+    "properties": {
+    "num":4953,
+    "Nom":"MALEYRE",
+    "Prenom":"SOLANGE",
+    "Adresse_1":"17 BOULEVARD FRANKLIN ROOSEVELT",
+    "Adresse_2":"",
+    "ref_voie":"Président Franklin Roosevelt (boulevard)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"17 Boulevard du Président Franklin Roosevelt 33400 Talence",
+    "result_score":0.71,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000311832182",
+    "result_housenumber":"17",
+    "result_name":"Boulevard du Président Franklin Roosevelt",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58037,44.806068 ]
+    },
+    "properties": {
+    "num":68,
+    "Nom":"MARDIGRAS",
+    "Prenom":"MME",
+    "Adresse_1":"250 RUE FREDERIC SEVENE",
+    "Adresse_2":"250 RUE FREDERIC SEVENE",
+    "ref_voie":"Sévène Frédéric (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Frédéric Sevene 33400 Talence",
+    "result_score":0.83,
+    "result_type":"street",
+    "result_id":"33522_1110_67dd71",
+    "result_housenumber":"",
+    "result_name":"Rue Frédéric Sevene",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589147,44.787286 ]
+    },
+    "properties": {
+    "num":4538,
+    "Nom":"MARTIN",
+    "Prenom":"DANIÈLE",
+    "Adresse_1":"rue Alfred de Musset",
+    "Adresse_2":"rue Alfred de Musset",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Alfred de Musset 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0071_3c3c7d",
+    "result_housenumber":"",
+    "result_name":"Rue Alfred de Musset",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583971,44.819865 ]
+    },
+    "properties": {
+    "num":456,
+    "Nom":"MERNISSI",
+    "Prenom":"MYRIEM",
+    "Adresse_1":"37 cours Gambetta",
+    "Adresse_2":"",
+    "ref_voie":"Gambetta (cours) 1-91 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"37 Cours Gambetta 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312043",
+    "result_housenumber":"37",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.605605,44.797976 ]
+    },
+    "properties": {
+    "num":733,
+    "Nom":"MONFERIER",
+    "Prenom":"JACQUES",
+    "Adresse_1":"4 RUE JULES MASSENET",
+    "Adresse_2":"",
+    "ref_voie":"Massenet Jules (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"4 Rue Jules Massenet 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368983",
+    "result_housenumber":"4",
+    "result_name":"Rue Jules Massenet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.581504,44.813938 ]
+    },
+    "properties": {
+    "num":4784,
+    "Nom":"NADALINI",
+    "Prenom":"CLAIRE",
+    "Adresse_1":"96 RUE BOURGES APPART 6",
+    "Adresse_2":"",
+    "ref_voie":"Bourges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"96 Rue Bourges 33400 Talence",
+    "result_score":0.7,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329211",
+    "result_housenumber":"96",
+    "result_name":"Rue Bourges",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586777,44.817548 ]
+    },
+    "properties": {
+    "num":789,
+    "Nom":"NATALIS",
+    "Prenom":"JEAN-YVES",
+    "Adresse_1":"19 RUE RENE BALLOUX",
+    "Adresse_2":"",
+    "ref_voie":"Balloux René (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"19 Rue René Balloux 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276318528",
+    "result_housenumber":"19",
+    "result_name":"Rue René Balloux",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.595229,44.804225 ]
+    },
+    "properties": {
+    "num":778,
+    "Nom":"NAVARRO",
+    "Prenom":"PAUL ET GINETTE",
+    "Adresse_1":"62 AVENUE GEORGES CLEMENCEAU",
+    "Adresse_2":"",
+    "ref_voie":"Général Clémenceau (avenue) 61-99",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"62 Avenue Georges Clemenceau 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276353970",
+    "result_housenumber":"62",
+    "result_name":"Avenue Georges Clemenceau",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590527,44.805075 ]
+    },
+    "properties": {
+    "num":5159,
+    "Nom":"ORTEGA",
+    "Prenom":"GEORGES",
+    "Adresse_1":"Av. lasserre Georges",
+    "Adresse_2":"Av. lasserre",
+    "ref_voie":"Lasserre Georges (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue Georges Lasserre 33400 Talence",
+    "result_score":0.78,
+    "result_type":"street",
+    "result_id":"33522_1285_93b8fb",
+    "result_housenumber":"",
+    "result_name":"Avenue Georges Lasserre",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58913,44.802925 ]
+    },
+    "properties": {
+    "num":607,
+    "Nom":"OSSIERE",
+    "Prenom":"FRANCE",
+    "Adresse_1":"28 rue de Trémeuge",
+    "Adresse_2":"",
+    "ref_voie":"De Pressensé Francis (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"28 Rue de Tremeuge 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358221",
+    "result_housenumber":"28",
+    "result_name":"Rue de Tremeuge",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589553,44.790532 ]
+    },
+    "properties": {
+    "num":4584,
+    "Nom":"OUDKI",
+    "Prenom":"ANOUARE",
+    "Adresse_1":"rue nicolas poussin",
+    "Adresse_2":"Res Sylvia Appt 299 Bat A",
+    "ref_voie":"Poussin Nicolas (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Nicolas Poussin 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1954_013a62",
+    "result_housenumber":"",
+    "result_name":"Rue Nicolas Poussin",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596354,44.796708 ]
+    },
+    "properties": {
+    "num":740,
+    "Nom":"PEIRO",
+    "Prenom":"RAYMOND",
+    "Adresse_1":"rue Rabelais François",
+    "Adresse_2":"",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue François Rabelais 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_1085_aa3820",
+    "result_housenumber":"",
+    "result_name":"Rue François Rabelais",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589147,44.787286 ]
+    },
+    "properties": {
+    "num":4940,
+    "Nom":"PEISSE",
+    "Prenom":"GABRIELLE",
+    "Adresse_1":"RUE ALFRED DE MUSSET",
+    "Adresse_2":"RUE ALFRED DE MUSSET",
+    "ref_voie":"De Musset Alfred (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Alfred de Musset 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0071_3c3c7d",
+    "result_housenumber":"",
+    "result_name":"Rue Alfred de Musset",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.589147,44.787286 ]
+    },
+    "properties": {
+    "num":4941,
+    "Nom":"PEISSE",
+    "Prenom":"CHARLES",
+    "Adresse_1":"RUE ALFRED DE MUSSET",
+    "Adresse_2":"RUE ALFRED DE MUSSET",
+    "ref_voie":"De Musset Alfred (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Alfred de Musset 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0071_3c3c7d",
+    "result_housenumber":"",
+    "result_name":"Rue Alfred de Musset",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.593489,44.820408 ]
+    },
+    "properties": {
+    "num":4579,
+    "Nom":"PENE",
+    "Prenom":"CHRISTIAN",
+    "Adresse_1":"Impasse Carros",
+    "Adresse_2":"Impasse Carros",
+    "ref_voie":"Caros (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Impasse Carros 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_0490_e9b8a7",
+    "result_housenumber":"",
+    "result_name":"Impasse Carros",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592901,44.821117 ]
+    },
+    "properties": {
+    "num":423,
+    "Nom":"PENNEC",
+    "Prenom":"FRANCETTE",
+    "Adresse_1":"225 rue du XIV juillet",
+    "Adresse_2":"",
+    "ref_voie":"Quatorze Juillet (rue) 163-251 IMPAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"225 Rue du 14 Juillet 33400 Talence",
+    "result_score":0.76,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276306582",
+    "result_housenumber":"225",
+    "result_name":"Rue du 14 Juillet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.584139,44.802793 ]
+    },
+    "properties": {
+    "num":5183,
+    "Nom":"PERIN",
+    "Prenom":"MARIE FRANCOISE",
+    "Adresse_1":"33 RUE LAFONTAINE",
+    "Adresse_2":"",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"33 Rue Lafontaine 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358069",
+    "result_housenumber":"33",
+    "result_name":"Rue Lafontaine",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592327,44.795515 ]
+    },
+    "properties": {
+    "num":5062,
+    "Nom":"PEYNAUD",
+    "Prenom":"CHRISTOPHE",
+    "Adresse_1":"178 AVENUE DE THOUARS",
+    "Adresse_2":"RES LES OMBRAGES BAT C1",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"178 Avenue de Thouars 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000311832554",
+    "result_housenumber":"178",
+    "result_name":"Avenue de Thouars",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578486,44.811924 ]
+    },
+    "properties": {
+    "num":611,
+    "Nom":"PEYRANNE",
+    "Prenom":"DIDIER",
+    "Adresse_1":"208 rue de Suzon",
+    "Adresse_2":"Rés. Peylanne ; Appt. 101",
+    "ref_voie":"Suzon (chemin) 164-282 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"208 Rue de Suzon 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888747",
+    "result_housenumber":"208",
+    "result_name":"Rue de Suzon",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.576589,44.814665 ]
+    },
+    "properties": {
+    "num":5144,
+    "Nom":"PHILIPPEAU",
+    "Prenom":"FLORENCE",
+    "Adresse_1":"40 rue de Freycinet",
+    "Adresse_2":"",
+    "ref_voie":"Freycinet (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"40 Rue de Freycinet 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276328917",
+    "result_housenumber":"40",
+    "result_name":"Rue de Freycinet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58841,44.789027 ]
+    },
+    "properties": {
+    "num":5020,
+    "Nom":"PINSARD",
+    "Prenom":"JACQUELINE",
+    "Adresse_1":"RUE PAUL CEZANNE",
+    "Adresse_2":"RUE PAUL CEZANNE",
+    "ref_voie":"Cézanne Paul (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Paul Cézanne 33400 Talence",
+    "result_score":0.92,
+    "result_type":"street",
+    "result_id":"33522_2015_015093",
+    "result_housenumber":"",
+    "result_name":"Rue Paul Cézanne",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.579151,44.800579 ]
+    },
+    "properties": {
+    "num":616,
+    "Nom":"PLETAN-JOLY",
+    "Prenom":"JACQUELINE",
+    "Adresse_1":"rue Georges Pompidou",
+    "Adresse_2":"Rés. Saint-Hubert ; Appt. 29",
+    "ref_voie":"Pompidou Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Georges Pompidou 33400 Talence",
+    "result_score":0.93,
+    "result_type":"street",
+    "result_id":"33522_1252_4b6aad",
+    "result_housenumber":"",
+    "result_name":"Rue Georges Pompidou",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.580647,44.816635 ]
+    },
+    "properties": {
+    "num":4734,
+    "Nom":"PRIAT",
+    "Prenom":"FABIEN",
+    "Adresse_1":"52 RUE JEAN JAURES",
+    "Adresse_2":"",
+    "ref_voie":"Jaurés Jean (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"52 Rue Jean Jaurès 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276323363",
+    "result_housenumber":"52",
+    "result_name":"Rue Jean Jaurès",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590105,44.821593 ]
+    },
+    "properties": {
+    "num":5104,
+    "Nom":"RABEAU",
+    "Prenom":"VIRGINIE",
+    "Adresse_1":"3 RUE DU 4 SEPTEMBRE",
+    "Adresse_2":"",
+    "ref_voie":"Quatre Septembre (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"3 Rue du 4 Septembre 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276306444",
+    "result_housenumber":"3",
+    "result_name":"Rue du 4 Septembre",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.598941,44.816617 ]
+    },
+    "properties": {
+    "num":4462,
+    "Nom":"RAVOTTI",
+    "Prenom":"FRANÇOIS",
+    "Adresse_1":"2bis impasse vieille tour",
+    "Adresse_2":"",
+    "ref_voie":"Vieille Tour (impasse)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"2 BIS Impasse Vieille Tour 33400 Talence",
+    "result_score":0.85,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276324136",
+    "result_housenumber":"2 BIS",
+    "result_name":"Impasse Vieille Tour",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.582167,44.82015 ]
+    },
+    "properties": {
+    "num":635,
+    "Nom":"REBIERE",
+    "Prenom":"ANDRÉ",
+    "Adresse_1":"25 rue de la Fraternité",
+    "Adresse_2":"",
+    "ref_voie":"Fraternité (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"25 Rue de la Fraternité 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276311912",
+    "result_housenumber":"25",
+    "result_name":"Rue de la Fraternité",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.582167,44.82015 ]
+    },
+    "properties": {
+    "num":4969,
+    "Nom":"REBIERE",
+    "Prenom":"JANINE",
+    "Adresse_1":"25 rue de la Fraternité",
+    "Adresse_2":"",
+    "ref_voie":"Fraternité (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"25 Rue de la Fraternité 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276311912",
+    "result_housenumber":"25",
+    "result_name":"Rue de la Fraternité",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588037,44.80718 ]
+    },
+    "properties": {
+    "num":111,
+    "Nom":"RIAHI",
+    "Prenom":"BRAHIM",
+    "Adresse_1":"64 AVENUE M LECLERC",
+    "Adresse_2":"64 AVENUE M LECLERC",
+    "ref_voie":"Rabelais François (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"64 Avenue Maréchal Leclerc 33400 Talence",
+    "result_score":0.72,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000353973574",
+    "result_housenumber":"64",
+    "result_name":"Avenue Maréchal Leclerc",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.583936,44.820292 ]
+    },
+    "properties": {
+    "num":4686,
+    "Nom":"ROBERT",
+    "Prenom":"LOUISETTE",
+    "Adresse_1":"6 rue emile LOUBET",
+    "Adresse_2":"",
+    "ref_voie":"Loubet Emile (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"6 Rue Émile Loubet 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312020",
+    "result_housenumber":"6",
+    "result_name":"Rue Émile Loubet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.601177,44.794909 ]
+    },
+    "properties": {
+    "num":4526,
+    "Nom":"RODET",
+    "Prenom":"MANU",
+    "Adresse_1":"11B rue remi belleau",
+    "Adresse_2":"11B rue remi belleau",
+    "ref_voie":"Belleau Rémi (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Rue Rémi Belleau 33400 Talence",
+    "result_score":0.81,
+    "result_type":"street",
+    "result_id":"33522_2335_0c827f",
+    "result_housenumber":"",
+    "result_name":"Rue Rémi Belleau",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592077,44.819082 ]
+    },
+    "properties": {
+    "num":4900,
+    "Nom":"ROTSE",
+    "Prenom":"HUGUETTE",
+    "Adresse_1":"13 RUE HENRI BRISSON",
+    "Adresse_2":"",
+    "ref_voie":"Brisson Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"13 Rue Henri Brisson 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312495",
+    "result_housenumber":"13",
+    "result_name":"Rue Henri Brisson",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.592077,44.819082 ]
+    },
+    "properties": {
+    "num":4901,
+    "Nom":"ROTSE",
+    "Prenom":"EDGARD",
+    "Adresse_1":"13 RUE HENRI BRISSON",
+    "Adresse_2":"",
+    "ref_voie":"Brisson Henri (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"13 Rue Henri Brisson 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312495",
+    "result_housenumber":"13",
+    "result_name":"Rue Henri Brisson",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.580764,44.818728 ]
+    },
+    "properties": {
+    "num":624,
+    "Nom":"ROY",
+    "Prenom":"YVES",
+    "Adresse_1":"18 rue Jules Ferry",
+    "Adresse_2":"",
+    "ref_voie":"Ferry Jules (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"18 Rue Jules Ferry 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276318080",
+    "result_housenumber":"18",
+    "result_name":"Rue Jules Ferry",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.58814,44.814463 ]
+    },
+    "properties": {
+    "num":4733,
+    "Nom":"ROY",
+    "Prenom":"JEAN DENIS",
+    "Adresse_1":"200 COURS GAMBETTA",
+    "Adresse_2":"",
+    "ref_voie":"Gambetta (cours) 176-264 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"200 Cours Gambetta 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000339942573",
+    "result_housenumber":"200",
+    "result_name":"Cours Gambetta",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587011,44.815757 ]
+    },
+    "properties": {
+    "num":4985,
+    "Nom":"RUBEN",
+    "Prenom":"M",
+    "Adresse_1":"7 rue roger salengro",
+    "Adresse_2":"",
+    "ref_voie":"Salengro Roger (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"7 Rue Roger Salengro 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276323693",
+    "result_housenumber":"7",
+    "result_name":"Rue Roger Salengro",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.601241,44.814289 ]
+    },
+    "properties": {
+    "num":4714,
+    "Nom":"SALLENAVE",
+    "Prenom":"CHRISTIAN ET MARIE",
+    "Adresse_1":"2 PLACE MOZART",
+    "Adresse_2":"",
+    "ref_voie":"Mozart (place)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"2 Place Mozart 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276329737",
+    "result_housenumber":"2",
+    "result_name":"Place Mozart",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.597476,44.815373 ]
+    },
+    "properties": {
+    "num":294,
+    "Nom":"SAPENE",
+    "Prenom":"M. MME CLAUDE",
+    "Adresse_1":"9 rue brémontier",
+    "Adresse_2":"",
+    "ref_voie":"Brémontier (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"9 Rue Bremontier 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276324010",
+    "result_housenumber":"9",
+    "result_name":"Rue Bremontier",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.585999,44.820445 ]
+    },
+    "properties": {
+    "num":4670,
+    "Nom":"SAUMAGNE",
+    "Prenom":"LOUIS",
+    "Adresse_1":"3, rue Paul Lafargue",
+    "Adresse_2":"",
+    "ref_voie":"Laffargues Paul (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"3 Rue Paul Laffargue 33400 Talence",
+    "result_score":0.9,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312125",
+    "result_housenumber":"3",
+    "result_name":"Rue Paul Laffargue",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587637,44.807109 ]
+    },
+    "properties": {
+    "num":4543,
+    "Nom":"SIFFRE",
+    "Prenom":"MME",
+    "Adresse_1":"Av. du Mal Leclerc",
+    "Adresse_2":"",
+    "ref_voie":"Maréchal Leclerc (avenue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue Maréchal Leclerc 33400 Talence",
+    "result_score":0.61,
+    "result_type":"street",
+    "result_id":"33522_1780_caa7f5",
+    "result_housenumber":"",
+    "result_name":"Avenue Maréchal Leclerc",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.586205,44.819974 ]
+    },
+    "properties": {
+    "num":4855,
+    "Nom":"SINGLA",
+    "Prenom":"ALINE",
+    "Adresse_1":"17 rue francis de pressensé",
+    "Adresse_2":"",
+    "ref_voie":"De Pressensé Francis (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"17 Rue Francis de Pressense 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000324888858",
+    "result_housenumber":"17",
+    "result_name":"Rue Francis de Pressense",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.578492,44.797748 ]
+    },
+    "properties": {
+    "num":5184,
+    "Nom":"TERRIER",
+    "Prenom":"SERGE",
+    "Adresse_1":"181 RUE DE LEYSOTTE",
+    "Adresse_2":"",
+    "ref_voie":"0",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"181 Chemin de Leysotte 33400 Talence",
+    "result_score":0.66,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276368467",
+    "result_housenumber":"181",
+    "result_name":"Chemin de Leysotte",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.596357,44.800152 ]
+    },
+    "properties": {
+    "num":361,
+    "Nom":"TEULE",
+    "Prenom":"JEANNE",
+    "Adresse_1":"572 cours de la libération",
+    "Adresse_2":"",
+    "ref_voie":"Libération (cours) 414-820 PAIR",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"572 Cours de la Libération 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276362018",
+    "result_housenumber":"572",
+    "result_name":"Cours de la Libération",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.588842,44.794367 ]
+    },
+    "properties": {
+    "num":4965,
+    "Nom":"TITEUX",
+    "Prenom":"JACQUES",
+    "Adresse_1":"42 RUE GEORGES BIZET",
+    "Adresse_2":"",
+    "ref_voie":"Bizet Georges (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"42 Rue Georges Bizet 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276374898",
+    "result_housenumber":"42",
+    "result_name":"Rue Georges Bizet",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.587933,44.80286 ]
+    },
+    "properties": {
+    "num":5107,
+    "Nom":"TREMBLIER",
+    "Prenom":"JULIE",
+    "Adresse_1":"PLACE PAUL GAUGUIN",
+    "Adresse_2":"PLACE PAUL GAUGUIN",
+    "ref_voie":"Gaughin Paul (place)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"Avenue Paul Lapié 33400 Talence",
+    "result_score":0.46,
+    "result_type":"street",
+    "result_id":"33522_2050_60a3b6",
+    "result_housenumber":"",
+    "result_name":"Avenue Paul Lapié",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.590838,44.818932 ]
+    },
+    "properties": {
+    "num":307,
+    "Nom":"UGONI",
+    "Prenom":"MICHÈLE",
+    "Adresse_1":"32 rue ludovic trarieux",
+    "Adresse_2":"",
+    "ref_voie":"Trarieux Ludovic (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"32 Rue Ludovic Trarieux 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276312400",
+    "result_housenumber":"32",
+    "result_name":"Rue Ludovic Trarieux",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.585674,44.803347 ]
+    },
+    "properties": {
+    "num":119,
+    "Nom":"VIOLERO",
+    "Prenom":"PRIMITIVO",
+    "Adresse_1":"18 RUE MONTESQUIEU",
+    "Adresse_2":"",
+    "ref_voie":"Montesquieu (rue)",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"18 Rue Montesquieu 33400 Talence",
+    "result_score":0.93,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276358128",
+    "result_housenumber":"18",
+    "result_name":"Rue Montesquieu",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -0.573832,44.811891 ]
+    },
+    "properties": {
+    "num":825,
+    "Nom":"ZAZURCA",
+    "Prenom":"AUDREY",
+    "Adresse_1":"75 route de toulouse",
+    "Adresse_2":"Rés le rubis",
+    "ref_voie":"Toulouse (route) 53-159",
+    "Code_postal":33400,
+    "Ville":"TALENCE",
+    "result_label":"75 Route de Toulouse 33400 Talence",
+    "result_score":0.92,
+    "result_type":"housenumber",
+    "result_id":"ADRNIVX_0000000276338670",
+    "result_housenumber":"75",
+    "result_name":"Route de Toulouse",
+    "result_street":"",
+    "result_postcode":33400,
+    "result_city":"Talence",
+    "result_context":"33, Gironde, Aquitaine",
+    "result_citycode":33522
+    }
+  }
+]
+}

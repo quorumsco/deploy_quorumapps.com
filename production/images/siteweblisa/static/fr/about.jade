@@ -1,0 +1,143 @@
+extends ./layout.jade
+block vars
+    - var pageTitle = 'Équipe'
+block content
+    header#about.small
+    main#aboutPage
+        section#slider
+            .container
+                h2 Équi
+                    span pe
+                ul
+                    li.active
+                        a(href="#believe") VISION ET VALEURS
+                    li
+                        a(href="#team") COMPÉTENCES ET ÉQUIPE 
+                    li
+                        a(href="#jobs") JOBS  
+        #slide
+            section#believe
+                .container
+                    .content
+                        h3.italic "La technologie ne construit pas de grands mouvements, ne débat pas d’idées et ne partage pas sa passion ; les êtres humains oui."
+                        div.believe-fr
+                            img(src="../../images/believe/people-test.jpg")
+                            p
+                                span Nos organisations aujourd’hui font face à des problèmes et des défis d’une complexité sans précédent.
+
+                                span Ces problèmes, nous pensons que 
+                                    strong la technologie, l’intelligence artificielle et le traitement des données
+                                    |  peuvent aider à les surmonter.
+
+                                span Comme ils ont aidé à transformer à grande échelle le secteur financier, marchand ou logistique, nous pensons qu’ils peuvent aussi aider la société à aller mieux, aux hommes à diffuser leurs idées, à 
+                                    strong créer du mouvement
+                                    |  , à se rassembler autour de causes.
+                        div.believe-fr
+                            img(src="../../images/believe/technology-test.jpg")
+                            p
+                                span Nous pensons que la technologie peut aider les hommes à avoir un 
+                                    strong impact sociétal fort
+                                    | , grâce au pouvoir d’analyse, de synchronisation et de coordination de ces outils.
+
+                                span C’est pourquoi nous avons créé 
+                                    strong Quorum
+                                    |  : pour mettre les technologies dans des applications simples et fluides, dédiées aux utilisateurs et au service d’objectifs 
+                                    strong réels et concrets
+                                    |  .
+
+                                span Mais si nous pensons que la technologie permet d'augmenter les capacités des individus et des organisations, elle ne peut être une fin en soi.
+                        div.believe-fr
+                            img(src="../../images/believe/talk-test.jpg")
+                            p
+                                span Elle n’est là que pour aider les 
+                                    strong hommes à accomplir
+                                    | . Son accompagnement restera toujours limité par son utilisation.
+                                span C’est pourquoi la technologie doit disparaitre, 
+                                    strong se rendre invisible
+                                    | , dans le sens où les individus doivent se l’accaparer pour qu’elle ne soit là que pour aider à réaliser pleinement nos objectifs : augmenter l’impact de nos actions et permettre d’aller plus loin dans la mobilisation sans jamais perdre l’idéologie qui nous définit :
+                        
+                        ul.bullet
+                            li 
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span LA 
+                                        strong PROTECTION DES DROITS
+                                        |  & DE LA VIE PRIVEE  
+                            li 
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span L’EMANCIPATION DE LA DONNEE ET l’
+                                        strong OPEN DATA
+                            li 
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span LE LOGICIEL LIBRE
+                            li 
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span L’AMBITION D’
+                                        strong ETRE UTILE 
+                                        | : CONSTRUIRE DES OUTILS UTILES QUI REPONDENT A DES OBJECTIFS CONCRETS
+                            li 
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span LA TECHNOLOGIE DOIT S’ADAPTER A l’INDIVIDU, PAS L’INVERSE
+                            li
+                                div.icon
+                                    img(src="../images/icons/check-blue.svg" alt="Check")
+                                div.sentence
+                                    span L'
+                                        strong INNOVATION 
+                                        | PERMANENTE
+            section#team
+                .container
+                    .content
+                        h3 L’INTELLIGENCE COLLECTIVE est notre ADN.
+                        
+                        p Nous sommes des vétérans de grandes sociétés informatiques, des experts en sciences sociales qui construisent des algorithmes, des anciens volontaires d’ONG qui écrivent des lignes de codes et qui pensent que tous ensemble - si nous parvenons à travailler et à construire des ponts entre nos disciplines – nous pouvons créer des outils qui peuvent changer la donne.
+                        #chart
+                        h3 Fondateurs
+                        div.member
+                            img(title="Florent Barre" src="../images/team/florent-small-color.png" alt="Florent Barre")
+                            p Florent Barre
+                            p CEO
+                            p Chief of Executive Officer
+                            p
+                                a(href="https://www.linkedin.com/in/florentbarre" target="_blank")
+                                    i.icon-linkedin
+                                a(href="https://twitter.com/barreflorent" target="_blank")
+                                    i.icon-twitter
+                        div.member
+                            img(title="Maxime Beylot" src="../images/team/maxime-small-color.png" alt="Maxime Beylot")
+                            p Maxime Beylot
+                            p CCO
+                            p Chief of Customer and Field Officer
+                            p
+                                a(href="https://www.linkedin.com/in/maxime-beylot-6b00525b" target="_blank")
+                                    i.icon-linkedin
+                        div.member
+                            img(title="Jean-Baptiste Daniel" src="../images/team/jean-baptiste-small-color.png" alt="Jean-Baptiste Daniel")
+                            p Jean-Baptiste Daniel
+                            p CTO
+                            p Chief of Technology Officer
+                            p
+                                a(href="https://www.linkedin.com/in/jean-baptiste-daniel-68a57a4" target="_blank")
+                                    i.icon-linkedin
+                        p Retrouvez sur notre blog les publications de l’équipe Quorum, de nos invites et amis.
+                        a(href="https://medium.com/@quorumblog" target="_blank") 
+                            button.purple BLOG
+            section#jobs
+                .container
+                    .content
+                        p Nous cherchons des gens, créatifs, innovant, curieux, ambitieux et ultra mobiles adaptés à notre monde qui est un monde d’acceleration; et cela quelque soit leur background. Des profils qui comme chaque membre de l’équipe vivent dans un désir omniprésent d’agir.
+                        .middle
+                            a(href="index.html#contact")
+                                button.pink POSTULER
+                            span Suivez-nous sur Linked In pour voir nos dernières offres d'emploi
+                                a(href="https://www.linkedin.com/company/10114882" target="_blank")
+                                    i.fa.fa-linkedin-square

@@ -1,0 +1,37 @@
+@include exports('section') {
+	section {
+	  	padding: 15px 0 20px 0;
+	  	text-align: center;
+	  	.title{
+	  		width: 30%;
+	  		border: 0px;
+	  		height: 2px;
+	  		margin: 0 auto;
+	  	}
+		.part {
+			color: $grey;
+			padding: 2px;
+			letter-spacing: 2px;
+			font-size: 10px;
+			margin: 0 10px;
+			font-family: $heading-font-family;
+		}
+		.list {
+			p {
+				color: $grey;
+			}
+		}
+		p {
+			i {
+				margin-right: 3px;
+			}
+		}
+		hr.title {
+			width: 70px;
+			margin-left: 0;
+			margin-bottom: 40px;
+			height: 2px;
+			border: none;
+		}
+	}
+}
